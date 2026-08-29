@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 185" width="780" height="185">
+  <rect width="780" height="185" rx="8" fill="#F8FAFC" stroke="rgba(59, 130, 246, 0.22)" stroke-width="0.5"/>
+  <text x="390" y="22" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">LANGUAGE DNA // CODE DISTRIBUTION</text>
+  
+    <g transform="translate(30, 42)">
+      <text x="0" y="11" fill="#0F172A" font-family="'Courier New',monospace" font-size="8.5" font-weight="600">TypeScript</text>
+      <rect x="120" y="2" width="560" height="12" rx="6" fill="#94A3B8" opacity="0.18"/>
+      <rect x="120" y="2" width="212.8" height="12" rx="6" fill="#2563EB">
+        <animate attributeName="width" from="0" to="212.8" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="700" y="11" fill="#2563EB" font-family="'Courier New',monospace" font-size="8.5" font-weight="700">38%</text>
+    </g>
+    <g transform="translate(30, 68)">
+      <text x="0" y="11" fill="#0F172A" font-family="'Courier New',monospace" font-size="8.5" font-weight="600">Python</text>
+      <rect x="120" y="2" width="560" height="12" rx="6" fill="#94A3B8" opacity="0.18"/>
+      <rect x="120" y="2" width="179.2" height="12" rx="6" fill="#7C3AED">
+        <animate attributeName="width" from="0" to="179.2" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="700" y="11" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8.5" font-weight="700">32%</text>
+    </g>
+    <g transform="translate(30, 94)">
+      <text x="0" y="11" fill="#0F172A" font-family="'Courier New',monospace" font-size="8.5" font-weight="600">JavaScript</text>
+      <rect x="120" y="2" width="560" height="12" rx="6" fill="#94A3B8" opacity="0.18"/>
+      <rect x="120" y="2" width="67.2" height="12" rx="6" fill="#D97706">
+        <animate attributeName="width" from="0" to="67.2" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="700" y="11" fill="#D97706" font-family="'Courier New',monospace" font-size="8.5" font-weight="700">12%</text>
+    </g>
+    <g transform="translate(30, 120)">
+      <text x="0" y="11" fill="#0F172A" font-family="'Courier New',monospace" font-size="8.5" font-weight="600">Dart</text>
+      <rect x="120" y="2" width="560" height="12" rx="6" fill="#94A3B8" opacity="0.18"/>
+      <rect x="120" y="2" width="56.0" height="12" rx="6" fill="#0891B2">
+        <animate attributeName="width" from="0" to="56.0" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="700" y="11" fill="#0891B2" font-family="'Courier New',monospace" font-size="8.5" font-weight="700">10%</text>
+    </g>
+    <g transform="translate(30, 146)">
+      <text x="0" y="11" fill="#0F172A" font-family="'Courier New',monospace" font-size="8.5" font-weight="600">C++ / Java</text>
+      <rect x="120" y="2" width="560" height="12" rx="6" fill="#94A3B8" opacity="0.18"/>
+      <rect x="120" y="2" width="44.8" height="12" rx="6" fill="#059669">
+        <animate attributeName="width" from="0" to="44.8" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="700" y="11" fill="#059669" font-family="'Courier New',monospace" font-size="8.5" font-weight="700">8%</text>
+    </g>
+</svg>

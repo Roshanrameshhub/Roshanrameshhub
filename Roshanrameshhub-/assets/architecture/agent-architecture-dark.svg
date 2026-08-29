@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 215" width="750" height="215">
+  <rect width="750" height="215" rx="8" fill="#0A0E1A" stroke="rgba(0, 229, 255, 0.18)" stroke-width="0.5"/>
+  <text x="375" y="20" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">AGENTIC AI ORCHESTRATION ARCHITECTURE</text>
+  <g>
+    <rect x="275" y="33" width="200" height="30" rx="6" fill="#111827" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+    <text x="375" y="52" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">ORCHESTRATOR / SUPERVISOR</text>
+  </g><g>
+    <rect x="65" y="102" width="130" height="26" rx="6" fill="#111827" stroke="#8B5CF6" stroke-width="1" opacity="0.9"/>
+    <text x="130" y="119" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">REASONING ENGINE</text>
+  </g><line x1="375" y1="63" x2="130" y2="102" stroke="#8B5CF6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#8B5CF6" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L130,102"/>
+  </circle><g>
+    <rect x="228" y="102" width="125" height="26" rx="6" fill="#111827" stroke="#00E5FF" stroke-width="1" opacity="0.9"/>
+    <text x="290" y="119" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">EPISODIC MEMORY</text>
+  </g><line x1="375" y1="63" x2="290" y2="102" stroke="#00E5FF" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#00E5FF" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L290,102"/>
+  </circle><g>
+    <rect x="393" y="102" width="135" height="26" rx="6" fill="#111827" stroke="#10B981" stroke-width="1" opacity="0.9"/>
+    <text x="460" y="119" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">MCP &amp; TOOL CALLING</text>
+  </g><line x1="375" y1="63" x2="460" y2="102" stroke="#10B981" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#10B981" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L460,102"/>
+  </circle><g>
+    <rect x="550" y="102" width="140" height="26" rx="6" fill="#111827" stroke="#3B82F6" stroke-width="1" opacity="0.9"/>
+    <text x="620" y="119" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">KNOWLEDGE RETRIEVAL</text>
+  </g><line x1="375" y1="63" x2="620" y2="102" stroke="#3B82F6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#3B82F6" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L620,102"/>
+  </circle><g>
+    <rect x="150" y="162" width="120" height="26" rx="6" fill="#111827" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+    <text x="210" y="179" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">TASK EXECUTION</text>
+  </g><line x1="375" y1="63" x2="210" y2="162" stroke="#F59E0B" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#F59E0B" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L210,162"/>
+  </circle><g>
+    <rect x="473" y="162" width="135" height="26" rx="6" fill="#111827" stroke="#00E5FF" stroke-width="1" opacity="0.9"/>
+    <text x="540" y="179" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">SAFETY &amp; VALIDATION</text>
+  </g><line x1="375" y1="63" x2="540" y2="162" stroke="#00E5FF" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#00E5FF" opacity="0.85">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M375,63 L540,162"/>
+  </circle><line x1="130" y1="128" x2="210" y2="162" stroke="#8B5CF6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#8B5CF6" opacity="0.85">
+    <animateMotion dur="2.0s" repeatCount="indefinite" path="M130,128 L210,162"/>
+  </circle><line x1="620" y1="128" x2="540" y2="162" stroke="#3B82F6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#3B82F6" opacity="0.85">
+    <animateMotion dur="2.0s" repeatCount="indefinite" path="M620,128 L540,162"/>
+  </circle><line x1="270" y1="175" x2="470" y2="175" stroke="#F59E0B" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#F59E0B" opacity="0.85">
+    <animateMotion dur="2.0s" repeatCount="indefinite" path="M270,175 L470,175"/>
+  </circle>
+</svg>

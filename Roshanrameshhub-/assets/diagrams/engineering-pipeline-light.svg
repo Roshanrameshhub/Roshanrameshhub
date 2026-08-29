@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 115" width="780" height="115">
+  <rect width="780" height="115" rx="8" fill="#F8FAFC" stroke="rgba(59, 130, 246, 0.22)" stroke-width="0.5"/>
+  <text x="390" y="22" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">HOW I THINK // ENGINEERING LIFECYCLE</text>
+  
+    <g>
+      <rect x="14" y="42" width="76" height="28" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+      <text x="52" y="59" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">PROBLEM</text>
+    </g>
+      <line x1="90" y1="56" x2="102" y2="56" stroke="#0891B2" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#0891B2" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M90,56 L102,56"/>
+      </circle>
+    <g>
+      <rect x="106" y="42" width="76" height="28" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+      <text x="144" y="59" text-anchor="middle" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">MODEL</text>
+    </g>
+      <line x1="182" y1="56" x2="194" y2="56" stroke="#7C3AED" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#7C3AED" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M182,56 L194,56"/>
+      </circle>
+    <g>
+      <rect x="190.0" y="42" width="92.0" height="28" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+      <text x="236" y="59" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">ARCHITECTURE</text>
+    </g>
+      <line x1="282.0" y1="56" x2="286" y2="56" stroke="#2563EB" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#2563EB" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M282.0,56 L286,56"/>
+      </circle>
+    <g>
+      <rect x="276.0" y="42" width="105.0" height="28" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1" opacity="0.9"/>
+      <text x="328" y="59" text-anchor="middle" fill="#D97706" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">IMPLEMENTATION</text>
+    </g>
+      <line x1="380.0" y1="56" x2="378" y2="56" stroke="#D97706" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#D97706" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M380.0,56 L378,56"/>
+      </circle>
+    <g>
+      <rect x="382" y="42" width="76" height="28" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <text x="420" y="59" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">TESTING</text>
+    </g>
+      <line x1="458" y1="56" x2="470" y2="56" stroke="#059669" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#059669" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M458,56 L470,56"/>
+      </circle>
+    <g>
+      <rect x="463.0" y="42" width="98.5" height="28" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+      <text x="512" y="59" text-anchor="middle" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">OBSERVABILITY</text>
+    </g>
+      <line x1="561.0" y1="56" x2="562" y2="56" stroke="#7C3AED" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#7C3AED" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M561.0,56 L562,56"/>
+      </circle>
+    <g>
+      <rect x="565.0" y="42" width="79.0" height="28" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+      <text x="604" y="59" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">DEPLOYMENT</text>
+    </g>
+      <line x1="643.0" y1="56" x2="654" y2="56" stroke="#0891B2" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+      <circle r="2.2" fill="#0891B2" opacity="0.85">
+        <animateMotion dur="2.2s" repeatCount="indefinite" path="M643.0,56 L654,56"/>
+      </circle>
+    <g>
+      <rect x="658" y="42" width="76" height="28" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+      <text x="696" y="59" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="0.5">ITERATION</text>
+    </g>
+  <text x="390" y="100" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="7" letter-spacing="2">SYSTEM DESIGN METHODOLOGY • CONTINUOUS REFINEMENT</text>
+</svg>

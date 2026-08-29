@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 286" width="400" height="286">
+  <rect width="400" height="286" rx="6" fill="#0A0E1A" stroke="rgba(0, 229, 255, 0.18)" stroke-width="0.5"/>
+  <text x="200" y="16" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">SMARTFERT-AI // ARCHITECTURE</text>
+  <g>
+    <rect x="132.0" y="19" width="136.0" height="26" rx="6" fill="#111827" stroke="#10B981" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="36" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">ESP32 CONTROLLER</text>
+  </g><line x1="200" y1="45" x2="200" y2="61" stroke="#10B981" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#10B981" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M200,45 L200,61"/>
+  </circle><g>
+    <rect x="132.0" y="61" width="136.0" height="26" rx="6" fill="#111827" stroke="#00E5FF" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="78" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">NPK SOIL SENSORS</text>
+  </g><line x1="200" y1="87" x2="200" y2="103" stroke="#00E5FF" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#00E5FF" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M200,87 L200,103"/>
+  </circle><g>
+    <rect x="136.0" y="103" width="128.5" height="26" rx="6" fill="#111827" stroke="#3B82F6" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="120" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">FASTAPI BACKEND</text>
+  </g><line x1="200" y1="129" x2="200" y2="145" stroke="#3B82F6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#3B82F6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M200,129 L200,145"/>
+  </circle><g>
+    <rect x="121.0" y="145" width="158.5" height="26" rx="6" fill="#111827" stroke="#8B5CF6" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="162" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">ML PREDICTION MODEL</text>
+  </g><line x1="200" y1="171" x2="200" y2="187" stroke="#8B5CF6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#8B5CF6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M200,171 L200,187"/>
+  </circle><g>
+    <rect x="125.0" y="187" width="151.0" height="26" rx="6" fill="#111827" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="204" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">RECOMMENDER ENGINE</text>
+  </g><line x1="200" y1="213" x2="200" y2="229" stroke="#F59E0B" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#F59E0B" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M200,213 L200,229"/>
+  </circle><g>
+    <rect x="136.0" y="229" width="128.5" height="26" rx="6" fill="#111827" stroke="#10B981" stroke-width="1" opacity="0.9"/>
+    <text x="200" y="246" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">VALVE ACTUATORS</text>
+  </g>
+</svg>

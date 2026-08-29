@@ -1,0 +1,43 @@
+name: Profile Asset Generation
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate All Visual Assets
+        run: |
+          python scripts/generate_svgs.py
+
+      - name: Validate Assets
+        run: |
+          python scripts/validate_assets.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No visual asset changes to commit."
+          else
+            git commit -m "build(assets): regenerate profile visual system [skip ci]"
+            git push
+          fi

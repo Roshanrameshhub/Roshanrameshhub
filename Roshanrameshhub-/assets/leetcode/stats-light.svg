@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="840" height="180">
+  <rect width="840" height="180" rx="8" fill="#F8FAFC" stroke="rgba(59, 130, 246, 0.22)" stroke-width="0.5"/>
+  <text x="420" y="22" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">LEETCODE COMMAND CENTER // VERIFIED TELEMETRY</text>
+  <g transform="translate(0, 10)">
+    
+    <circle cx="95" cy="95" r="42" fill="none" stroke="#94A3B8" stroke-width="4.5" opacity="0.18"/>
+    <circle cx="95" cy="95" r="42" fill="none" stroke="#0891B2" stroke-width="4.5" stroke-dasharray="263.9" stroke-dashoffset="249.6" stroke-linecap="round" transform="rotate(-90 95 95)">
+      <animate attributeName="stroke-dashoffset" from="263.89378290154264" to="249.6" dur="1.2s" fill="freeze"/>
+    </circle>
+    <text x="95" y="93" text-anchor="middle" fill="#0F172A" font-family="'Courier New',monospace" font-size="14" font-weight="700">219</text>
+    <text x="95" y="106" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7">/ 4033</text>
+    <text x="95" y="153" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="1">TOTAL SOLVED</text>
+    <circle cx="250" cy="95" r="32" fill="none" stroke="#94A3B8" stroke-width="4.5" opacity="0.18"/>
+    <circle cx="250" cy="95" r="32" fill="none" stroke="#059669" stroke-width="4.5" stroke-dasharray="201.1" stroke-dashoffset="185.8" stroke-linecap="round" transform="rotate(-90 250 95)">
+      <animate attributeName="stroke-dashoffset" from="201.06192982974676" to="185.8" dur="1.2s" fill="freeze"/>
+    </circle>
+    <text x="250" y="93" text-anchor="middle" fill="#0F172A" font-family="'Courier New',monospace" font-size="14" font-weight="700">73</text>
+    <text x="250" y="106" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7">/ 961</text>
+    <text x="250" y="143" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="1">EASY</text>
+    <circle cx="370" cy="95" r="32" fill="none" stroke="#94A3B8" stroke-width="4.5" opacity="0.18"/>
+    <circle cx="370" cy="95" r="32" fill="none" stroke="#D97706" stroke-width="4.5" stroke-dasharray="201.1" stroke-dashoffset="190.2" stroke-linecap="round" transform="rotate(-90 370 95)">
+      <animate attributeName="stroke-dashoffset" from="201.06192982974676" to="190.2" dur="1.2s" fill="freeze"/>
+    </circle>
+    <text x="370" y="93" text-anchor="middle" fill="#0F172A" font-family="'Courier New',monospace" font-size="14" font-weight="700">114</text>
+    <text x="370" y="106" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7">/ 2105</text>
+    <text x="370" y="143" text-anchor="middle" fill="#D97706" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="1">MEDIUM</text>
+    <circle cx="490" cy="95" r="32" fill="none" stroke="#94A3B8" stroke-width="4.5" opacity="0.18"/>
+    <circle cx="490" cy="95" r="32" fill="none" stroke="#DC2626" stroke-width="4.5" stroke-dasharray="201.1" stroke-dashoffset="194.4" stroke-linecap="round" transform="rotate(-90 490 95)">
+      <animate attributeName="stroke-dashoffset" from="201.06192982974676" to="194.4" dur="1.2s" fill="freeze"/>
+    </circle>
+    <text x="490" y="93" text-anchor="middle" fill="#0F172A" font-family="'Courier New',monospace" font-size="14" font-weight="700">32</text>
+    <text x="490" y="106" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7">/ 967</text>
+    <text x="490" y="143" text-anchor="middle" fill="#DC2626" font-family="'Courier New',monospace" font-size="8" font-weight="700" letter-spacing="1">HARD</text>
+    
+    <rect x="580" y="45" width="130" height="95" rx="6" fill="#FFFFFF" stroke="rgba(0, 0, 0, 0.08)" stroke-width="1"/>
+    <text x="645" y="65" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">CONTEST RATING</text>
+    <text x="645" y="92" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="22" font-weight="800">1773</text>
+    <text x="645" y="112" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="9" font-weight="700">Top 9.47%</text>
+    <text x="645" y="128" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="7">Rank #81,536</text>
+    
+    
+    <rect x="725" y="45" width="95" height="95" rx="6" fill="#FFFFFF" stroke="rgba(0, 0, 0, 0.08)" stroke-width="1"/>
+    <text x="772" y="65" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7" letter-spacing="1">BADGE</text>
+    <circle cx="772" cy="88" r="16" fill="#D97706" opacity="0.2"/>
+    <text x="772" y="92" text-anchor="middle" fill="#D97706" font-family="'Courier New',monospace" font-size="10" font-weight="800">50D</text>
+    <text x="772" y="122" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7">2026 Badge</text>
+    
+  </g>
+</svg>

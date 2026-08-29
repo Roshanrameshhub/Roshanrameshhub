@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 140" width="780" height="140">
+  <rect width="780" height="140" rx="8" fill="#F8FAFC" stroke="rgba(59, 130, 246, 0.22)" stroke-width="0.5"/>
+  <text x="390" y="24" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">RAG PIPELINE // RETRIEVAL-AUGMENTED GENERATION</text>
+  <g>
+    <rect x="12.0" y="57" width="72.5" height="26" rx="6" fill="#FFFFFF" stroke="#475569" stroke-width="1" opacity="0.9"/>
+    <text x="48" y="74" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">DOCUMENTS</text>
+  </g><line x1="84.0" y1="70" x2="98" y2="70" stroke="#475569" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#475569" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M84.0,70 L98,70"/>
+  </circle><g>
+    <rect x="98" y="57" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+    <text x="134" y="74" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">CHUNKING</text>
+  </g><line x1="170" y1="70" x2="184" y2="70" stroke="#2563EB" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#2563EB" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M170,70 L184,70"/>
+  </circle><g>
+    <rect x="181.0" y="57" width="79.0" height="26" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+    <text x="220" y="74" text-anchor="middle" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">EMBEDDINGS</text>
+  </g><line x1="259.0" y1="70" x2="270" y2="70" stroke="#7C3AED" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#7C3AED" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M259.0,70 L270,70"/>
+  </circle><g>
+    <rect x="260.0" y="57" width="92.0" height="26" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+    <text x="306" y="74" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">VECTOR STORE</text>
+  </g><line x1="352.0" y1="70" x2="356" y2="70" stroke="#0891B2" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#0891B2" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M352.0,70 L356,70"/>
+  </circle><g>
+    <rect x="356.0" y="57" width="72.5" height="26" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+    <text x="392" y="74" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">RETRIEVAL</text>
+  </g><line x1="428.0" y1="70" x2="442" y2="70" stroke="#2563EB" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#2563EB" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M428.0,70 L442,70"/>
+  </circle><g>
+    <rect x="442.0" y="57" width="72.5" height="26" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+    <text x="478" y="74" text-anchor="middle" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">RERANKING</text>
+  </g><line x1="514.0" y1="70" x2="528" y2="70" stroke="#7C3AED" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#7C3AED" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M514.0,70 L528,70"/>
+  </circle><g>
+    <rect x="528" y="57" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+    <text x="564" y="74" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">CONTEXT</text>
+  </g><line x1="600" y1="70" x2="614" y2="70" stroke="#0891B2" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#0891B2" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M600,70 L614,70"/>
+  </circle><g>
+    <rect x="614" y="57" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1" opacity="0.9"/>
+    <text x="650" y="74" text-anchor="middle" fill="#D97706" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">LLM</text>
+  </g><line x1="686" y1="70" x2="700" y2="70" stroke="#D97706" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#D97706" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M686,70 L700,70"/>
+  </circle><g>
+    <rect x="700" y="57" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1" opacity="0.9"/>
+    <text x="736" y="74" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">ANSWER</text>
+  </g>
+  <text x="390" y="122" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="7" letter-spacing="2">DENSE RETRIEVAL • HYBRID SEARCH • RE-RANKED CONTEXT INJECTION</text>
+</svg>

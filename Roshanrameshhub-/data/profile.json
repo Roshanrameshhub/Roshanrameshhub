@@ -1,0 +1,156 @@
+{
+  "name": "Roshan R",
+  "username": "Roshanrameshhub",
+  "title": "Software Engineer • AI Engineer",
+  "tagline": "BUILDING SYSTEMS THAT THINK, SCALE & SHIP",
+  "status": {
+    "system": "ONLINE",
+    "mode": "ENGINEERING",
+    "focus": "AI + SYSTEMS"
+  },
+  "roles": [
+    "SOFTWARE ENGINEERING",
+    "AI ENGINEERING",
+    "SYSTEM DESIGN",
+    "AGENTIC AI",
+    "RAG SYSTEMS",
+    "REAL-TIME SYSTEMS",
+    "DEVOPS & CLOUD"
+  ],
+  "identity": {
+    "role": "Software Engineer / AI Engineer",
+    "focus": "AI Systems • Backend • Architecture",
+    "building": "Agentic AI • RAG • Real-Time Systems",
+    "education": "Computer Science Engineering"
+  },
+  "bio": "Computer Science Engineering student focused on building AI-powered software systems, distributed workflows, and production-oriented applications. Engineering across AI systems, backend architecture, real-time pipelines, DevOps, and intelligent automation.",
+  "links": {
+    "github": "https://github.com/Roshanrameshhub",
+    "linkedin": "https://www.linkedin.com/in/roshan1833",
+    "email": "rosharnithisha123@gmail.com",
+    "leetcode": "https://leetcode.com/u/RoshanR_in/",
+    "rconnectx": "https://www.rconnectx.com/",
+    "flyrank": "https://flyrank.ai/",
+    "gssoc": "https://gssoc.girlscript.org/"
+  },
+  "projects": [
+    {
+      "name": "RConnectX",
+      "domain": "AI-Powered Networking Platform",
+      "problem": "Fragmented startup networking with no intelligent matching or discovery",
+      "approach": "AI-driven matching engine, real-time collaboration, event-driven architecture",
+      "stack": ["Next.js", "TypeScript", "FastAPI", "PostgreSQL", "WebSocket", "OAuth2", "Cloudinary"],
+      "repo": "https://github.com/Roshanrameshhub/nexus",
+      "live": "https://www.rconnectx.com/",
+      "architecture": ["Clients", "Frontend", "API", "AI Services", "Data", "Real-Time"]
+    },
+    {
+      "name": "SmartFert-AI",
+      "domain": "AI + IoT Precision Agriculture",
+      "problem": "Inefficient fertilizer usage due to lack of real-time soil intelligence",
+      "approach": "ESP32 soil telemetry, ML-based NPK prediction, automated dispensing",
+      "stack": ["Python", "FastAPI", "React", "TypeScript", "ESP32", "ML", "PostgreSQL"],
+      "repo": "https://github.com/Roshanrameshhub/SmartFert-ai",
+      "live": null,
+      "architecture": ["ESP32", "Sensors", "API", "ML Engine", "Recommendation", "Automation"]
+    },
+    {
+      "name": "AgentForge",
+      "domain": "AI Agent Framework",
+      "problem": "Complex multi-agent orchestration with no unified workflow engine",
+      "approach": "Multi-agent orchestration, hybrid RAG, knowledge graphs, MCP tools, persistent memory",
+      "stack": ["Python", "LangGraph", "FastAPI", "ChromaDB", "PostgreSQL", "Redis", "Streamlit"],
+      "repo": "https://github.com/Roshanrameshhub/AgentForge",
+      "live": null,
+      "architecture": ["User", "Orchestrator", "Agents", "RAG + Knowledge Graph", "Tools", "Memory"]
+    },
+    {
+      "name": "Guardian-AI",
+      "domain": "AI-Powered Personal Safety",
+      "problem": "Reactive safety systems that fail when users cannot actively call for help",
+      "approach": "Voice distress detection, motion sensing, live GPS, intelligent SOS",
+      "stack": ["Flutter", "Dart", "FastAPI", "Firebase", "Gemini AI", "PostgreSQL", "Redis", "Twilio"],
+      "repo": "https://github.com/Roshanrameshhub/guardian-ai",
+      "live": null,
+      "architecture": ["Mobile App", "Sensors", "AI Engine", "Backend", "Alerts", "Monitoring"]
+    },
+    {
+      "name": "CATI AI",
+      "domain": "Real-Time Voice AI Systems",
+      "problem": "Managing complex conversational state in real-time voice interactions",
+      "approach": "Event-driven state machines, barge-in handling, multi-turn dialogue management",
+      "stack": ["React", "Zustand", "LiveKit", "WebRTC", "Voice AI"],
+      "repo": null,
+      "live": null,
+      "architecture": ["Voice Input", "VAD", "STT", "State Engine", "LLM", "TTS", "Audio Output"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "RConnectX",
+      "role": "Technical / Engineering",
+      "domain": "AI-Powered Startup Networking",
+      "focus": "Intelligent matching, real-time collaboration, product engineering",
+      "systems": ["Next.js", "FastAPI", "PostgreSQL", "WebSocket", "AI"]
+    },
+    {
+      "company": "CATI AI",
+      "role": "AI / Voice AI Intern",
+      "domain": "Real-Time Conversational AI",
+      "focus": "State management, multi-turn dialogue, barge-in, WebRTC events",
+      "systems": ["LiveKit", "WebRTC", "React", "Zustand", "Voice Pipelines"]
+    },
+    {
+      "company": "Rakshan Earth & Space Management",
+      "role": "Technical Intern",
+      "domain": "Engineering Operations",
+      "focus": "Technical workflows and real-world engineering environments",
+      "systems": []
+    },
+    {
+      "company": "FlyRank",
+      "role": "AI / Engineering",
+      "domain": "AI-Powered Growth Systems",
+      "focus": "Agentic AI, AI search, intelligent automation",
+      "systems": ["AI Agents", "Search", "Automation"]
+    },
+    {
+      "company": "AgentForge",
+      "role": "Personal AI Engineering Project",
+      "domain": "AI Agent Framework",
+      "focus": "Multi-agent orchestration, RAG, tool calling, memory systems",
+      "systems": ["LangGraph", "FastAPI", "ChromaDB", "MCP"]
+    }
+  ],
+  "open_source": [
+    {
+      "org": "GirlScript / GSSoC",
+      "url": "https://gssoc.girlscript.org/",
+      "contribution": "Open-source contributor through GitHub-based development workflows"
+    }
+  ],
+  "now_building": [
+    "Agentic AI",
+    "RAG",
+    "Production AI Systems",
+    "System Design",
+    "Real-Time Voice AI",
+    "Cloud / DevOps",
+    "DSA",
+    "AI + IoT"
+  ],
+  "engineering_domains": {
+    "code": "ACTIVE",
+    "ai": "ACTIVE",
+    "systems": "ACTIVE",
+    "infra": "ADVANCING",
+    "algorithms": "ACTIVE",
+    "open_source": "ADVANCING"
+  },
+  "manifesto": [
+    "DESIGN BEFORE SCALE",
+    "BUILD BEFORE BOAST",
+    "MEASURE BEFORE OPTIMIZE",
+    "SHIP BEFORE PERFECT"
+  ]
+}

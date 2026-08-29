@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 120" width="780" height="120">
+  <rect width="780" height="120" rx="8" fill="#0A0E1A" stroke="rgba(0, 229, 255, 0.18)" stroke-width="0.5"/>
+  <text x="390" y="20" text-anchor="middle" fill="#94A3B8" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">INTELLIGENT IoT ARCHITECTURE // HARDWARE TO AI</text>
+  <g>
+    <rect x="13" y="49" width="74" height="26" rx="6" fill="#111827" stroke="#10B981" stroke-width="1" opacity="0.9"/>
+    <text x="50" y="66" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">ESP32</text>
+  </g><line x1="87" y1="62" x2="107" y2="62" stroke="#10B981" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#10B981" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M87,62 L107,62"/>
+  </circle><g>
+    <rect x="101.0" y="49" width="86.4" height="26" rx="6" fill="#111827" stroke="#00E5FF" stroke-width="1" opacity="0.9"/>
+    <text x="144" y="66" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">SOIL SENSORS</text>
+  </g><line x1="187.0" y1="62" x2="201" y2="62" stroke="#00E5FF" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#00E5FF" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M187.0,62 L201,62"/>
+  </circle><g>
+    <rect x="201" y="49" width="74" height="26" rx="6" fill="#111827" stroke="#3B82F6" stroke-width="1" opacity="0.9"/>
+    <text x="238" y="66" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">TELEMETRY</text>
+  </g><line x1="275" y1="62" x2="295" y2="62" stroke="#3B82F6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#3B82F6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M275,62 L295,62"/>
+  </circle><g>
+    <rect x="280.0" y="49" width="105.0" height="26" rx="6" fill="#111827" stroke="#8B5CF6" stroke-width="1" opacity="0.9"/>
+    <text x="332" y="66" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">EDGE PROCESSING</text>
+  </g><line x1="384.0" y1="62" x2="389" y2="62" stroke="#8B5CF6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#8B5CF6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M384.0,62 L389,62"/>
+  </circle><g>
+    <rect x="389" y="49" width="74" height="26" rx="6" fill="#111827" stroke="#00E5FF" stroke-width="1" opacity="0.9"/>
+    <text x="426" y="66" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">FASTAPI</text>
+  </g><line x1="463" y1="62" x2="483" y2="62" stroke="#00E5FF" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#00E5FF" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M463,62 L483,62"/>
+  </circle><g>
+    <rect x="483" y="49" width="74" height="26" rx="6" fill="#111827" stroke="#3B82F6" stroke-width="1" opacity="0.9"/>
+    <text x="520" y="66" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">CLOUD AI</text>
+  </g><line x1="557" y1="62" x2="577" y2="62" stroke="#3B82F6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#3B82F6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M557,62 L577,62"/>
+  </circle><g>
+    <rect x="568.0" y="49" width="92.60000000000001" height="26" rx="6" fill="#111827" stroke="#8B5CF6" stroke-width="1" opacity="0.9"/>
+    <text x="614" y="66" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">NPK PREDICTOR</text>
+  </g><line x1="660.0" y1="62" x2="671" y2="62" stroke="#8B5CF6" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#8B5CF6" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M660.0,62 L671,62"/>
+  </circle><g>
+    <rect x="671" y="49" width="74" height="26" rx="6" fill="#111827" stroke="#10B981" stroke-width="1" opacity="0.9"/>
+    <text x="708" y="66" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">DISPENSER</text>
+  </g>
+  <text x="390" y="105" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="7" letter-spacing="2">REAL-TIME SENSOR TELEMETRY -> EDGE ENCODING -> CLOUD PREDICTION -> ACTUATION</text>
+</svg>

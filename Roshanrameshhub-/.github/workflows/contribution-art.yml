@@ -1,0 +1,37 @@
+name: Contribution Art & Visual Telemetry
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-art:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate Contribution Visuals
+        run: |
+          python scripts/generate_contributions.py
+
+      - name: Commit & Push Visuals
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/github/
+          if git diff --staged --quiet; then
+            echo "No contribution visual changes."
+          else
+            git commit -m "chore(art): refresh contribution skyline & telemetry [skip ci]"
+            git push
+          fi

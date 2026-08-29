@@ -1,0 +1,266 @@
+{
+  "username": "RoshanR_in",
+  "fetched_at": "2026-08-29T07:29:13.715021+00:00",
+  "profile": {
+    "ranking": 759317,
+    "reputation": 1,
+    "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
+  },
+  "stats": {
+    "totalSolved": 219,
+    "totalQuestions": 4033,
+    "easySolved": 73,
+    "totalEasy": 961,
+    "mediumSolved": 114,
+    "totalMedium": 2105,
+    "hardSolved": 32,
+    "totalHard": 967,
+    "contributionPoint": 663
+  },
+  "contest": {
+    "rating": 1773.12088632806,
+    "globalRanking": 81536,
+    "totalParticipants": 879441,
+    "topPercentage": 9.47,
+    "attended": 3
+  },
+  "badges": {
+    "count": 1,
+    "list": [
+      {
+        "name": "50 Days Badge 2026",
+        "icon": "https://assets.leetcode.com/static_assets/others/50_1080_1080.png",
+        "date": "2026-08-19"
+      }
+    ]
+  },
+  "skills": {
+    "fundamental": [
+      {
+        "name": "Array",
+        "count": 110
+      },
+      {
+        "name": "Matrix",
+        "count": 15
+      },
+      {
+        "name": "String",
+        "count": 59
+      },
+      {
+        "name": "Simulation",
+        "count": 15
+      },
+      {
+        "name": "Enumeration",
+        "count": 10
+      },
+      {
+        "name": "Sorting",
+        "count": 25
+      },
+      {
+        "name": "Stack",
+        "count": 9
+      },
+      {
+        "name": "Queue",
+        "count": 2
+      },
+      {
+        "name": "Linked List",
+        "count": 20
+      },
+      {
+        "name": "Two Pointers",
+        "count": 29
+      }
+    ],
+    "intermediate": [
+      {
+        "name": "Tree",
+        "count": 3
+      },
+      {
+        "name": "Binary Tree",
+        "count": 2
+      },
+      {
+        "name": "Hash Table",
+        "count": 34
+      },
+      {
+        "name": "Ordered Set",
+        "count": 3
+      },
+      {
+        "name": "Graph Theory",
+        "count": 8
+      },
+      {
+        "name": "Greedy",
+        "count": 27
+      },
+      {
+        "name": "Binary Search",
+        "count": 32
+      },
+      {
+        "name": "Depth-First Search",
+        "count": 7
+      },
+      {
+        "name": "Breadth-First Search",
+        "count": 7
+      },
+      {
+        "name": "Recursion",
+        "count": 11
+      },
+      {
+        "name": "Sliding Window",
+        "count": 10
+      },
+      {
+        "name": "Bit Manipulation",
+        "count": 17
+      },
+      {
+        "name": "Math",
+        "count": 56
+      },
+      {
+        "name": "Design",
+        "count": 3
+      }
+    ],
+    "advanced": [
+      {
+        "name": "Game Theory",
+        "count": 9
+      },
+      {
+        "name": "Rolling Hash",
+        "count": 1
+      },
+      {
+        "name": "Backtracking",
+        "count": 13
+      },
+      {
+        "name": "Dynamic Programming",
+        "count": 28
+      },
+      {
+        "name": "Divide and Conquer",
+        "count": 10
+      },
+      {
+        "name": "Trie",
+        "count": 1
+      },
+      {
+        "name": "Union-Find",
+        "count": 5
+      },
+      {
+        "name": "Binary Indexed Tree",
+        "count": 1
+      },
+      {
+        "name": "Segment Tree",
+        "count": 6
+      },
+      {
+        "name": "Monotonic Stack",
+        "count": 3
+      },
+      {
+        "name": "Topological Sort",
+        "count": 1
+      },
+      {
+        "name": "Shortest Path",
+        "count": 3
+      }
+    ]
+  },
+  "submissionCalendar": {
+    "1767830400": 2,
+    "1767916800": 4,
+    "1768003200": 2,
+    "1771804800": 6,
+    "1771891200": 3,
+    "1774828800": 4,
+    "1778457600": 14,
+    "1778544000": 4,
+    "1782172800": 7,
+    "1783209600": 1,
+    "1783296000": 1,
+    "1783382400": 1,
+    "1783555200": 16,
+    "1783641600": 14,
+    "1783728000": 2,
+    "1783814400": 11,
+    "1783900800": 8,
+    "1783987200": 10,
+    "1784073600": 10,
+    "1784160000": 14,
+    "1784246400": 13,
+    "1784332800": 9,
+    "1784419200": 5,
+    "1784505600": 7,
+    "1784592000": 10,
+    "1784678400": 2,
+    "1784764800": 20,
+    "1784851200": 13,
+    "1784937600": 6,
+    "1785024000": 11,
+    "1785110400": 2,
+    "1785196800": 13,
+    "1785283200": 9,
+    "1785369600": 6,
+    "1785456000": 6,
+    "1785542400": 9,
+    "1785628800": 5,
+    "1785715200": 1,
+    "1785801600": 3,
+    "1785888000": 1,
+    "1785974400": 1,
+    "1786060800": 2,
+    "1786147200": 1,
+    "1786233600": 9,
+    "1786406400": 2,
+    "1786492800": 1,
+    "1786579200": 1,
+    "1786752000": 11,
+    "1786838400": 9,
+    "1787011200": 1,
+    "1787097600": 1,
+    "1787184000": 1,
+    "1787270400": 2,
+    "1787356800": 6,
+    "1787443200": 6,
+    "1787529600": 1,
+    "1787616000": 1,
+    "1787702400": 1,
+    "1787788800": 1,
+    "1787875200": 1
+  },
+  "languages": [
+    "C++"
+  ],
+  "recentProblems": [
+    "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+    "Lexicographically Smallest Permutation Greater Than Target",
+    "Shortest and Lexicographically Smallest Beautiful String",
+    "Smallest Missing Multiple of K",
+    "Stone Game VIII",
+    "Sum Game",
+    "Longest Subarray With at Most K Distinct Prime Factors",
+    "Find All Numbers Disappeared in an Array II",
+    "Check ASCII Palindromic",
+    "Min Stack"
+  ]
+}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 115" width="780" height="115">
+  <rect width="780" height="115" rx="8" fill="#F8FAFC" stroke="rgba(59, 130, 246, 0.22)" stroke-width="0.5"/>
+  <text x="390" y="20" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">PRODUCTION CI/CD DEVOPS PIPELINE</text>
+  <g>
+    <rect x="12" y="49" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#475569" stroke-width="1" opacity="0.9"/>
+    <text x="50" y="66" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">GIT PUSH</text>
+  </g><text x="50" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● PUSHED</text><line x1="88" y1="62" x2="108" y2="62" stroke="#475569" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#475569" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M88,62 L108,62"/>
+  </circle><g>
+    <rect x="108" y="49" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+    <text x="146" y="66" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">CI TESTS</text>
+  </g><text x="146" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● PASS</text><line x1="184" y1="62" x2="204" y2="62" stroke="#2563EB" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#2563EB" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M184,62 L204,62"/>
+  </circle><g>
+    <rect x="196.0" y="49" width="92.0" height="26" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" opacity="0.9"/>
+    <text x="242" y="66" text-anchor="middle" fill="#7C3AED" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">LINT &amp; BUILD</text>
+  </g><text x="242" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● PASS</text><line x1="288.0" y1="62" x2="300" y2="62" stroke="#7C3AED" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#7C3AED" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M288.0,62 L300,62"/>
+  </circle><g>
+    <rect x="300" y="49" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+    <text x="338" y="66" text-anchor="middle" fill="#0891B2" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">DOCKERIZE</text>
+  </g><text x="338" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● BUILT</text><line x1="376" y1="62" x2="396" y2="62" stroke="#0891B2" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#0891B2" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M376,62 L396,62"/>
+  </circle><g>
+    <rect x="396" y="49" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" opacity="0.9"/>
+    <text x="434" y="66" text-anchor="middle" fill="#2563EB" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">REGISTRY</text>
+  </g><text x="434" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● SYNCED</text><line x1="472" y1="62" x2="492" y2="62" stroke="#2563EB" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#2563EB" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M472,62 L492,62"/>
+  </circle><g>
+    <rect x="492" y="49" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1" opacity="0.9"/>
+    <text x="530" y="66" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">DEPLOY</text>
+  </g><text x="530" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● ROLLOUT</text><line x1="568" y1="62" x2="588" y2="62" stroke="#059669" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#059669" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M568,62 L588,62"/>
+  </circle><g>
+    <rect x="580.0" y="49" width="92.0" height="26" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1" opacity="0.9"/>
+    <text x="626" y="66" text-anchor="middle" fill="#D97706" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">HEALTH CHECK</text>
+  </g><text x="626" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● HEALTHY</text><line x1="672.0" y1="62" x2="684" y2="62" stroke="#D97706" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,3"/>
+  <circle r="2.2" fill="#D97706" opacity="0.85">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M672.0,62 L684,62"/>
+  </circle><g>
+    <rect x="683.0" y="49" width="79.0" height="26" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1" opacity="0.9"/>
+    <text x="722" y="66" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="8.5" font-weight="600" letter-spacing="0.5">PRODUCTION</text>
+  </g><text x="722" y="88" text-anchor="middle" fill="#059669" font-family="'Courier New',monospace" font-size="6.5" font-weight="600">● LIVE</text>
+</svg>
