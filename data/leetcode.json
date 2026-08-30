@@ -1,21 +1,21 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-08-29T07:29:13.715021+00:00",
+  "fetched_at": "2026-08-30T03:47:05.980067+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 219,
-    "totalQuestions": 4033,
+    "totalSolved": 221,
+    "totalQuestions": 4037,
     "easySolved": 73,
     "totalEasy": 961,
-    "mediumSolved": 114,
-    "totalMedium": 2105,
+    "mediumSolved": 116,
+    "totalMedium": 2107,
     "hardSolved": 32,
-    "totalHard": 967,
-    "contributionPoint": 663
+    "totalHard": 969,
+    "contributionPoint": 689
   },
   "contest": {
     "rating": 1773.12088632806,
@@ -38,7 +38,7 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 110
+        "count": 112
       },
       {
         "name": "Matrix",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Sorting",
-        "count": 25
+        "count": 26
       },
       {
         "name": "Stack",
@@ -100,7 +100,7 @@
       },
       {
         "name": "Greedy",
-        "count": 27
+        "count": 28
       },
       {
         "name": "Binary Search",
@@ -162,7 +162,7 @@
       },
       {
         "name": "Union-Find",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Binary Indexed Tree",
@@ -246,7 +246,9 @@
     "1787616000": 1,
     "1787702400": 1,
     "1787788800": 1,
-    "1787875200": 1
+    "1787875200": 1,
+    "1787961600": 1,
+    "1788048000": 6
   },
   "languages": [
     "C++"
