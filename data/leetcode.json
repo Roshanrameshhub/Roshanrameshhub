@@ -1,36 +1,46 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-08-30T03:47:05.980067+00:00",
+  "fetched_at": "2026-09-06T03:03:30.710022+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 221,
-    "totalQuestions": 4037,
-    "easySolved": 73,
-    "totalEasy": 961,
-    "mediumSolved": 116,
-    "totalMedium": 2107,
-    "hardSolved": 32,
-    "totalHard": 969,
-    "contributionPoint": 689
+    "totalSolved": 231,
+    "totalQuestions": 4042,
+    "easySolved": 76,
+    "totalEasy": 962,
+    "mediumSolved": 122,
+    "totalMedium": 2109,
+    "hardSolved": 33,
+    "totalHard": 971,
+    "contributionPoint": 761
   },
   "contest": {
-    "rating": 1773.12088632806,
-    "globalRanking": 81536,
-    "totalParticipants": 879441,
-    "topPercentage": 9.47,
-    "attended": 3
+    "rating": 1856.6092915058896,
+    "globalRanking": 53002,
+    "totalParticipants": 881221,
+    "topPercentage": 6.16,
+    "attended": 4
   },
   "badges": {
-    "count": 1,
+    "count": 3,
     "list": [
+      {
+        "name": "Knight",
+        "icon": "/static/images/badges/knight.png",
+        "date": "2026-09-03"
+      },
       {
         "name": "50 Days Badge 2026",
         "icon": "https://assets.leetcode.com/static_assets/others/50_1080_1080.png",
         "date": "2026-08-19"
+      },
+      {
+        "name": "Aug LeetCoding Challenge",
+        "icon": "/static/images/badges/dcc-2026-8.png",
+        "date": "2026-08-31"
       }
     ]
   },
@@ -38,11 +48,11 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 112
+        "count": 117
       },
       {
         "name": "Matrix",
-        "count": 15
+        "count": 16
       },
       {
         "name": "String",
@@ -70,7 +80,7 @@
       },
       {
         "name": "Linked List",
-        "count": 20
+        "count": 21
       },
       {
         "name": "Two Pointers",
@@ -88,7 +98,7 @@
       },
       {
         "name": "Hash Table",
-        "count": 34
+        "count": 35
       },
       {
         "name": "Ordered Set",
@@ -112,7 +122,7 @@
       },
       {
         "name": "Breadth-First Search",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Recursion",
@@ -124,11 +134,11 @@
       },
       {
         "name": "Bit Manipulation",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Math",
-        "count": 56
+        "count": 58
       },
       {
         "name": "Design",
@@ -248,7 +258,14 @@
     "1787788800": 1,
     "1787875200": 1,
     "1787961600": 1,
-    "1788048000": 6
+    "1788048000": 6,
+    "1788134400": 1,
+    "1788220800": 1,
+    "1788307200": 1,
+    "1788393600": 1,
+    "1788480000": 3,
+    "1788566400": 2,
+    "1788652800": 3
   },
   "languages": [
     "C++"
