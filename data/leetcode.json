@@ -1,6 +1,6 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-09-06T03:03:30.710022+00:00",
+  "fetched_at": "2026-09-13T03:18:38.363234+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
@@ -18,11 +18,11 @@
     "contributionPoint": 761
   },
   "contest": {
-    "rating": 1856.6092915058896,
-    "globalRanking": 53002,
-    "totalParticipants": 881221,
-    "topPercentage": 6.16,
-    "attended": 4
+    "rating": 1907.880180041786,
+    "globalRanking": 37863,
+    "totalParticipants": 882088,
+    "topPercentage": 4.42,
+    "attended": 5
   },
   "badges": {
     "count": 3,
@@ -48,7 +48,7 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 117
+        "count": 119
       },
       {
         "name": "Matrix",
@@ -56,7 +56,7 @@
       },
       {
         "name": "String",
-        "count": 59
+        "count": 61
       },
       {
         "name": "Simulation",
@@ -64,11 +64,11 @@
       },
       {
         "name": "Enumeration",
-        "count": 10
+        "count": 11
       },
       {
         "name": "Sorting",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Stack",
@@ -90,15 +90,15 @@
     "intermediate": [
       {
         "name": "Tree",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Binary Tree",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Hash Table",
-        "count": 35
+        "count": 36
       },
       {
         "name": "Ordered Set",
@@ -114,11 +114,11 @@
       },
       {
         "name": "Binary Search",
-        "count": 32
+        "count": 33
       },
       {
         "name": "Depth-First Search",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Breadth-First Search",
@@ -126,7 +126,7 @@
       },
       {
         "name": "Recursion",
-        "count": 11
+        "count": 12
       },
       {
         "name": "Sliding Window",
@@ -138,7 +138,7 @@
       },
       {
         "name": "Math",
-        "count": 58
+        "count": 60
       },
       {
         "name": "Design",
@@ -160,7 +160,7 @@
       },
       {
         "name": "Dynamic Programming",
-        "count": 28
+        "count": 31
       },
       {
         "name": "Divide and Conquer",
