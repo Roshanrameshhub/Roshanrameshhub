@@ -1,28 +1,28 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-09-20T03:32:20.529048+00:00",
+  "fetched_at": "2026-09-27T03:48:26.049599+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 255,
-    "totalQuestions": 4055,
-    "easySolved": 82,
-    "totalEasy": 965,
-    "mediumSolved": 133,
-    "totalMedium": 2115,
-    "hardSolved": 40,
-    "totalHard": 975,
-    "contributionPoint": 925
+    "totalSolved": 344,
+    "totalQuestions": 4064,
+    "easySolved": 110,
+    "totalEasy": 967,
+    "mediumSolved": 176,
+    "totalMedium": 2119,
+    "hardSolved": 58,
+    "totalHard": 978,
+    "contributionPoint": 1072
   },
   "contest": {
-    "rating": 1985.5899139448693,
-    "globalRanking": 24284,
-    "totalParticipants": 883546,
-    "topPercentage": 2.85,
-    "attended": 7
+    "rating": 1994.2907752622225,
+    "globalRanking": 23252,
+    "totalParticipants": 884439,
+    "topPercentage": 2.73,
+    "attended": 8
   },
   "badges": {
     "count": 3,
@@ -48,35 +48,35 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 135
+        "count": 180
       },
       {
         "name": "Matrix",
-        "count": 19
+        "count": 27
       },
       {
         "name": "String",
-        "count": 65
+        "count": 77
       },
       {
         "name": "Simulation",
-        "count": 17
+        "count": 26
       },
       {
         "name": "Enumeration",
-        "count": 12
+        "count": 14
       },
       {
         "name": "Sorting",
-        "count": 29
+        "count": 34
       },
       {
         "name": "Stack",
-        "count": 11
+        "count": 25
       },
       {
         "name": "Queue",
-        "count": 2
+        "count": 6
       },
       {
         "name": "Linked List",
@@ -84,7 +84,7 @@
       },
       {
         "name": "Two Pointers",
-        "count": 32
+        "count": 35
       }
     ],
     "intermediate": [
@@ -98,7 +98,7 @@
       },
       {
         "name": "Hash Table",
-        "count": 42
+        "count": 55
       },
       {
         "name": "Heap",
@@ -114,42 +114,54 @@
       },
       {
         "name": "Greedy",
-        "count": 30
+        "count": 39
       },
       {
         "name": "Binary Search",
-        "count": 36
+        "count": 42
       },
       {
         "name": "Depth-First Search",
-        "count": 8
+        "count": 10
       },
       {
         "name": "Breadth-First Search",
-        "count": 8
-      },
-      {
-        "name": "Recursion",
         "count": 12
       },
       {
-        "name": "Sliding Window",
+        "name": "Recursion",
         "count": 14
       },
       {
+        "name": "Sliding Window",
+        "count": 20
+      },
+      {
         "name": "Bit Manipulation",
-        "count": 19
+        "count": 23
       },
       {
         "name": "Math",
-        "count": 66
+        "count": 87
       },
       {
         "name": "Design",
-        "count": 3
+        "count": 7
+      },
+      {
+        "name": "Brainteaser",
+        "count": 1
+      },
+      {
+        "name": "Database",
+        "count": 13
       }
     ],
     "advanced": [
+      {
+        "name": "Data Stream",
+        "count": 3
+      },
       {
         "name": "Game Theory",
         "count": 9
@@ -160,15 +172,15 @@
       },
       {
         "name": "Backtracking",
-        "count": 13
+        "count": 14
       },
       {
         "name": "Dynamic Programming",
-        "count": 37
+        "count": 50
       },
       {
         "name": "Divide and Conquer",
-        "count": 10
+        "count": 11
       },
       {
         "name": "Trie",
@@ -176,7 +188,7 @@
       },
       {
         "name": "Union-Find",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Binary Indexed Tree",
@@ -184,11 +196,11 @@
       },
       {
         "name": "Segment Tree",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Monotonic Stack",
-        "count": 5
+        "count": 12
       },
       {
         "name": "Topological Sort",
@@ -283,7 +295,14 @@
     "1789603200": 1,
     "1789689600": 1,
     "1789776000": 1,
-    "1789862400": 5
+    "1789862400": 22,
+    "1789948800": 1,
+    "1790035200": 3,
+    "1790121600": 29,
+    "1790208000": 20,
+    "1790294400": 25,
+    "1790380800": 9,
+    "1790467200": 3
   },
   "languages": [
     "C++"
