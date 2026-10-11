@@ -1,36 +1,41 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-10-04T04:25:35.149440+00:00",
+  "fetched_at": "2026-10-11T04:09:23.104509+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 404,
+    "totalSolved": 410,
     "totalQuestions": 4073,
-    "easySolved": 125,
+    "easySolved": 126,
     "totalEasy": 969,
-    "mediumSolved": 214,
+    "mediumSolved": 218,
     "totalMedium": 2124,
-    "hardSolved": 65,
+    "hardSolved": 66,
     "totalHard": 980,
-    "contributionPoint": 1093
+    "contributionPoint": 1215
   },
   "contest": {
-    "rating": 2003.1953665710546,
-    "globalRanking": 22256,
-    "totalParticipants": 886096,
-    "topPercentage": 2.61,
-    "attended": 10
+    "rating": 2011.2428385368075,
+    "globalRanking": 21238,
+    "totalParticipants": 887132,
+    "topPercentage": 2.49,
+    "attended": 11
   },
   "badges": {
-    "count": 4,
+    "count": 5,
     "list": [
       {
         "name": "Knight",
         "icon": "/static/images/badges/knight.png",
         "date": "2026-09-03"
+      },
+      {
+        "name": "100 Days Badge 2026",
+        "icon": "https://assets.leetcode.com/static_assets/others/100_1080_1080.png",
+        "date": "2026-10-08"
       },
       {
         "name": "50 Days Badge 2026",
@@ -53,7 +58,7 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 216
+        "count": 218
       },
       {
         "name": "Matrix",
@@ -61,7 +66,7 @@
       },
       {
         "name": "String",
-        "count": 92
+        "count": 96
       },
       {
         "name": "Simulation",
@@ -69,15 +74,15 @@
       },
       {
         "name": "Enumeration",
-        "count": 19
+        "count": 20
       },
       {
         "name": "Sorting",
-        "count": 40
+        "count": 41
       },
       {
         "name": "Stack",
-        "count": 33
+        "count": 36
       },
       {
         "name": "Queue",
@@ -119,11 +124,11 @@
       },
       {
         "name": "Greedy",
-        "count": 46
+        "count": 49
       },
       {
         "name": "Binary Search",
-        "count": 48
+        "count": 49
       },
       {
         "name": "Depth-First Search",
@@ -131,7 +136,7 @@
       },
       {
         "name": "Breadth-First Search",
-        "count": 14
+        "count": 15
       },
       {
         "name": "Recursion",
@@ -181,7 +186,7 @@
       },
       {
         "name": "Backtracking",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Dynamic Programming",
@@ -317,7 +322,14 @@
     "1790812800": 2,
     "1790899200": 22,
     "1790985600": 1,
-    "1791072000": 5
+    "1791072000": 5,
+    "1791158400": 1,
+    "1791244800": 1,
+    "1791331200": 1,
+    "1791417600": 1,
+    "1791504000": 1,
+    "1791590400": 7,
+    "1791676800": 8
   },
   "languages": [
     "C++"
