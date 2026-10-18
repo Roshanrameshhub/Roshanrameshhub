@@ -1,28 +1,28 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-10-11T04:09:23.104509+00:00",
+  "fetched_at": "2026-10-18T03:08:18.290998+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 410,
-    "totalQuestions": 4073,
-    "easySolved": 126,
-    "totalEasy": 969,
-    "mediumSolved": 218,
-    "totalMedium": 2124,
-    "hardSolved": 66,
-    "totalHard": 980,
-    "contributionPoint": 1215
+    "totalSolved": 421,
+    "totalQuestions": 4082,
+    "easySolved": 129,
+    "totalEasy": 971,
+    "mediumSolved": 223,
+    "totalMedium": 2128,
+    "hardSolved": 69,
+    "totalHard": 983,
+    "contributionPoint": 1287
   },
   "contest": {
-    "rating": 2011.2428385368075,
-    "globalRanking": 21238,
-    "totalParticipants": 887132,
-    "topPercentage": 2.49,
-    "attended": 11
+    "rating": 1992.1967809606347,
+    "globalRanking": 23697,
+    "totalParticipants": 888637,
+    "topPercentage": 2.77,
+    "attended": 13
   },
   "badges": {
     "count": 5,
@@ -58,7 +58,7 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 218
+        "count": 223
       },
       {
         "name": "Matrix",
@@ -78,7 +78,7 @@
       },
       {
         "name": "Sorting",
-        "count": 41
+        "count": 43
       },
       {
         "name": "Stack",
@@ -108,7 +108,7 @@
       },
       {
         "name": "Hash Table",
-        "count": 72
+        "count": 76
       },
       {
         "name": "Heap",
@@ -124,7 +124,7 @@
       },
       {
         "name": "Greedy",
-        "count": 49
+        "count": 52
       },
       {
         "name": "Binary Search",
@@ -148,11 +148,11 @@
       },
       {
         "name": "Bit Manipulation",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Math",
-        "count": 99
+        "count": 100
       },
       {
         "name": "Design",
@@ -206,11 +206,11 @@
       },
       {
         "name": "Binary Indexed Tree",
-        "count": 2
+        "count": 4
       },
       {
         "name": "Segment Tree",
-        "count": 9
+        "count": 11
       },
       {
         "name": "Monotonic Stack",
@@ -329,7 +329,14 @@
     "1791417600": 1,
     "1791504000": 1,
     "1791590400": 7,
-    "1791676800": 8
+    "1791676800": 8,
+    "1791763200": 1,
+    "1791849600": 1,
+    "1791936000": 1,
+    "1792022400": 1,
+    "1792108800": 2,
+    "1792195200": 1,
+    "1792281600": 3
   },
   "languages": [
     "C++"
