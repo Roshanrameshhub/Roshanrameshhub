@@ -1,31 +1,31 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-10-25T03:18:56.762622+00:00",
+  "fetched_at": "2026-11-01T04:31:35.628288+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 442,
-    "totalQuestions": 4091,
-    "easySolved": 137,
-    "totalEasy": 973,
-    "mediumSolved": 231,
-    "totalMedium": 2133,
-    "hardSolved": 74,
-    "totalHard": 985,
-    "contributionPoint": 1359
+    "totalSolved": 477,
+    "totalQuestions": 4100,
+    "easySolved": 150,
+    "totalEasy": 975,
+    "mediumSolved": 250,
+    "totalMedium": 2138,
+    "hardSolved": 77,
+    "totalHard": 987,
+    "contributionPoint": 1436
   },
   "contest": {
-    "rating": 1958.3605737828148,
-    "globalRanking": 28496,
-    "totalParticipants": 889290,
-    "topPercentage": 3.31,
-    "attended": 14
+    "rating": 1972.0266206656152,
+    "globalRanking": 26569,
+    "totalParticipants": 890724,
+    "topPercentage": 3.09,
+    "attended": 15
   },
   "badges": {
-    "count": 5,
+    "count": 6,
     "list": [
       {
         "name": "Knight",
@@ -43,6 +43,11 @@
         "date": "2026-08-19"
       },
       {
+        "name": "Oct LeetCoding Challenge",
+        "icon": "/static/images/badges/dcc-2026-10.png",
+        "date": "2026-10-31"
+      },
+      {
         "name": "Sep LeetCoding Challenge",
         "icon": "/static/images/badges/dcc-2026-9.png",
         "date": "2026-09-30"
@@ -58,15 +63,15 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 236
+        "count": 244
       },
       {
         "name": "Matrix",
-        "count": 31
+        "count": 35
       },
       {
         "name": "String",
-        "count": 99
+        "count": 101
       },
       {
         "name": "Simulation",
@@ -78,11 +83,11 @@
       },
       {
         "name": "Sorting",
-        "count": 46
+        "count": 47
       },
       {
         "name": "Stack",
-        "count": 36
+        "count": 41
       },
       {
         "name": "Queue",
@@ -90,7 +95,7 @@
       },
       {
         "name": "Linked List",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Two Pointers",
@@ -100,15 +105,15 @@
     "intermediate": [
       {
         "name": "Tree",
-        "count": 9
+        "count": 29
       },
       {
         "name": "Binary Tree",
-        "count": 8
+        "count": 27
       },
       {
         "name": "Hash Table",
-        "count": 81
+        "count": 83
       },
       {
         "name": "Heap",
@@ -120,7 +125,7 @@
       },
       {
         "name": "Graph Theory",
-        "count": 9
+        "count": 10
       },
       {
         "name": "Greedy",
@@ -128,15 +133,15 @@
       },
       {
         "name": "Binary Search",
-        "count": 51
+        "count": 52
       },
       {
         "name": "Depth-First Search",
-        "count": 15
+        "count": 34
       },
       {
         "name": "Breadth-First Search",
-        "count": 16
+        "count": 28
       },
       {
         "name": "Recursion",
@@ -148,7 +153,7 @@
       },
       {
         "name": "Bit Manipulation",
-        "count": 25
+        "count": 30
       },
       {
         "name": "Math",
@@ -186,15 +191,15 @@
       },
       {
         "name": "Backtracking",
-        "count": 19
+        "count": 20
       },
       {
         "name": "Dynamic Programming",
-        "count": 62
+        "count": 66
       },
       {
         "name": "Divide and Conquer",
-        "count": 13
+        "count": 14
       },
       {
         "name": "Trie",
@@ -202,19 +207,19 @@
       },
       {
         "name": "Union-Find",
-        "count": 9
+        "count": 11
       },
       {
         "name": "Binary Indexed Tree",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Segment Tree",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Monotonic Stack",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Topological Sort",
@@ -222,7 +227,7 @@
       },
       {
         "name": "Shortest Path",
-        "count": 4
+        "count": 5
       }
     ]
   },
@@ -342,7 +347,14 @@
     "1792540800": 1,
     "1792627200": 15,
     "1792800000": 3,
-    "1792886400": 8
+    "1792886400": 15,
+    "1792972800": 12,
+    "1793059200": 9,
+    "1793145600": 4,
+    "1793232000": 5,
+    "1793318400": 2,
+    "1793404800": 1,
+    "1793491200": 5
   },
   "languages": [
     "C++"
