@@ -15,6 +15,8 @@ import os
 import sys
 import math
 import xml.sax.saxutils as saxutils
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import svg_extras
 from datetime import datetime, timezone, timedelta
 
 # Force UTF-8 on stdout
@@ -105,20 +107,10 @@ def generate_hero(profile, theme, suffix):
     ])
     tagline = profile.get("tagline", "BUILDING SYSTEMS THAT THINK, SCALE & SHIP")
 
-    cycle = len(roles) * 3
     role_keyframes = ""
-    role_texts = ""
-    for i, role in enumerate(roles):
-        start_pct = (i * 3 / cycle) * 100
-        show_pct = start_pct + 2
-        end_pct = ((i + 1) * 3 / cycle) * 100
-        role_keyframes += f"""
-        @keyframes role{i} {{
-            0%, {start_pct:.1f}% {{ opacity: 0; transform: translateY(6px); }}
-            {start_pct + 1:.1f}%, {show_pct:.1f}% {{ opacity: 1; transform: translateY(0); }}
-            {end_pct:.1f}%, 100% {{ opacity: 0; transform: translateY(-6px); }}
-        }}"""
-        role_texts += f'<text x="450" y="192" text-anchor="middle" fill="{t["cyan"]}" font-family="\'Courier New\',monospace" font-size="13" font-weight="600" letter-spacing="4" opacity="0" style="animation: role{i} {cycle}s infinite;">{esc(role)}</text>'
+    role_texts = svg_extras.typewriter_roles(roles, t["cyan"], 450, 192, suffix)
+    mascots = svg_extras.octopus_chef(22, 92, 0.48, 0.0) + svg_extras.octopus_headphones(738, 88, 0.55, 0.6)
+    subtitle = profile.get("subtitle", "SOFTWARE ENGINEER // BACKEND • AI SYSTEMS • DSA")
 
     import random
     random.seed(42)
@@ -167,7 +159,7 @@ def generate_hero(profile, theme, suffix):
     </filter>
   </defs>
   <style>
-    {role_keyframes}
+    {svg_extras.mascot_css()}
     @keyframes scanline {{ 0% {{ transform: translateY(0); }} 100% {{ transform: translateY(300px); }} }}
   </style>
 
@@ -180,9 +172,10 @@ def generate_hero(profile, theme, suffix):
   <line x1="80" y1="225" x2="820" y2="225" stroke="{t["cyan"]}" stroke-width="0.6" opacity="0.25" filter="url(#glow_{suffix})"/>
 
   <text x="450" y="105" text-anchor="middle" fill="url(#titleGrad_{suffix})" font-family="system-ui,-apple-system,sans-serif" font-size="50" font-weight="900" letter-spacing="8" filter="url(#glow_{suffix})">ROSHAN R</text>
-  <text x="450" y="142" text-anchor="middle" fill="{t["muted"]}" font-family="'Courier New',monospace" font-size="11" letter-spacing="5">SOFTWARE ENGINEERING // AI SYSTEMS</text>
+  <text x="450" y="142" text-anchor="middle" fill="{t["muted"]}" font-family="'Courier New',monospace" font-size="11" letter-spacing="5">{esc(subtitle)}</text>
 
   {role_texts}
+  {mascots}
 
   <g transform="translate(450, 245)" text-anchor="middle">
     <circle cx="-165" cy="-3.5" r="3" fill="{t["green"]}">
@@ -194,7 +187,7 @@ def generate_hero(profile, theme, suffix):
   <g transform="translate(0, 276)" opacity="0.65">
     <text x="35" y="0" fill="{t["dim"]}" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">SYSTEM: ONLINE</text>
     <text x="260" y="0" fill="{t["dim"]}" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">MODE: ENGINEERING</text>
-    <text x="510" y="0" fill="{t["dim"]}" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">FOCUS: AI + SYSTEMS</text>
+    <text x="510" y="0" fill="{t["dim"]}" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">FOCUS: FULL-STACK + AI</text>
     <text x="760" y="0" fill="{t["dim"]}" font-family="'Courier New',monospace" font-size="7.5" letter-spacing="2">NODE: 01</text>
   </g>
 
@@ -214,12 +207,12 @@ def generate_engineering_os(profile, theme, suffix):
     t = DARK if theme == "dark" else LIGHT
 
     cards = [
-        ("IDENTITY", "Roshan R", "CS Engineering Student", t["cyan"]),
-        ("ROLE", "Software Engineer", "AI Systems Engineer", t["violet"]),
-        ("FOCUS", "AI Systems • Architecture", "Backend • Distributed Workflows", t["blue"]),
-        ("CURRENTLY BUILDING", "Agentic AI • Hybrid RAG", "Real-Time Voice Systems", t["green"]),
-        ("CORE STACK", "Python • TypeScript • C++", "FastAPI • React • PostgreSQL", t["amber"]),
-        ("AI & AGENTS", "LangGraph • MCP • ChromaDB", "PyTorch • LiveKit • WebRTC", t["cyan"]),
+        ("IDENTITY", "Roshan R", "B.E. CSE · CIT Chennai · CGPA 8.17", t["cyan"]),
+        ("ROLE", "Software Engineer", "Full-Stack · Backend · Applied AI", t["violet"]),
+        ("FOCUS", "Distributed Systems • Backend", "Cloud-Native AI Platforms", t["blue"]),
+        ("CURRENTLY BUILDING", "Agentic AI • Hybrid RAG", "CortexOps • AgentForge", t["green"]),
+        ("CORE STACK", "C++ • Python • TypeScript • Go • Rust", "FastAPI • Node • React • PostgreSQL", t["amber"]),
+        ("AI & AGENTS", "LangGraph • MCP • ChromaDB • BM25 + RRF", "PyTorch • XGBoost • LiveKit • WebRTC", t["cyan"]),
     ]
 
     content = ""
@@ -248,15 +241,20 @@ def generate_engineering_os(profile, theme, suffix):
 
 # ─── 3. LIVE TERMINAL EXPERIENCE ─────────────────────────────────────────────
 
-def generate_terminal(theme, suffix):
+def generate_terminal(theme, suffix, lc=None):
     t = DARK if theme == "dark" else LIGHT
+    lc = lc or {}
+    st = lc.get('stats', {})
+    ct = lc.get('contest', {})
+    lc_line = (f"{st.get('totalSolved', 0)} Solved ({st.get('easySolved', 0)} Easy, {st.get('mediumSolved', 0)} Med, {st.get('hardSolved', 0)} Hard) | "
+               f"Rating: {ct.get('rating', 0):.0f} (Top {ct.get('topPercentage', 0)}%)")
     lines = [
-        ("$ whoami", "roshan-r // software-engineer // ai-systems-architect"),
+        ("$ whoami", "roshan-r // software-engineer // backend + applied-ai"),
         ("$ cat focus.json", '{ "agentic_ai": true, "rag": true, "voice_ai": true, "dsa": "active" }'),
-        ("$ git log --oneline -1", "e8b4c12 feat(agentforge): implement graph-rag & mcp tool orchestration"),
-        ("$ docker ps --format 'table {{.Names}}\t{{.Status}}'", "agent-orchestrator (Up 42h) | vector-db (Up 42h) | rconnectx-api (Up 42h)"),
+        ("$ git log --oneline -1", "e8b4c12 feat(cortexops): add rust inference metering & rls tenant isolation"),
+        ("$ docker ps --format 'table {{.Names}}\t{{.Status}}'", "agent-orchestrator (Up 42h) | cortexops-policy (Up 42h) | rconnectx-api (Up 42h)"),
         ("$ systemctl status ai-pipeline", "● ai-pipeline.service - Active: running (event-driven WebRTC / LiveKit)"),
-        ("$ leetcode --stats", "219 Solved (73 Easy, 114 Med, 32 Hard) | Rating: 1773.12 (Top 9.47%)"),
+        ("$ leetcode --stats", lc_line),
         ("$ deploy --production", "Build: PASS (100% tests) -> Deployed to production across edge nodes"),
     ]
 
@@ -608,7 +606,7 @@ def generate_project_arch(name, steps, colors, theme, suffix, filename):
 def generate_all_project_archs(theme, suffix):
     t = DARK if theme == "dark" else LIGHT
     generate_project_arch(
-        "RCONNECTX", ["CLIENT BROWSERS", "NEXT.JS / REACT", "FASTAPI GATEWAY", "AI MATCHING ENGINE", "POSTGRESQL & REDIS", "WEBSOCKET STREAM"],
+        "RCONNECTX", ["CLIENT BROWSERS", "NEXT.JS / TYPESCRIPT", "FASTAPI + OAUTH2", "MINILM AI MATCHING", "POSTGRESQL (AWS RDS)", "WEBSOCKET MESSAGING"],
         [t["cyan"], t["blue"], t["violet"], t["amber"], t["cyan"], t["green"]],
         theme, suffix, "rconnectx-arch"
     )
@@ -618,9 +616,19 @@ def generate_all_project_archs(theme, suffix):
         theme, suffix, "smartfert-arch"
     )
     generate_project_arch(
-        "AGENTFORGE", ["USER PROMPT", "LANGGRAPH SUPERVISOR", "SPECIALIZED AGENTS", "HYBRID RAG + GRAPH", "MCP TOOL RUNTIME", "PERSISTENT MEMORY"],
+        "AGENTFORGE", ["USER PROMPT", "LANGGRAPH SUPERVISOR", "12-STAGE AGENT PIPELINE", "HYBRID RAG (BM25 + RRF)", "MCP TOOLS + HITL", "POSTGRES STATE + GRAFANA"],
         [t["cyan"], t["amber"], t["violet"], t["blue"], t["green"], t["cyan"]],
         theme, suffix, "agentforge-arch"
+    )
+    generate_project_arch(
+        "CORTEXOPS", ["API GATEWAY (REST/GRAPHQL)", "GO gRPC POLICY ENGINE", "MODEL REGISTRY (PG RLS)", "ELASTICSEARCH DISCOVERY", "RUST/AXUM INFERENCE", "REDIS RATE LIMITING"],
+        [t["cyan"], t["violet"], t["blue"], t["amber"], t["green"], t["cyan"]],
+        theme, suffix, "cortexops-arch"
+    )
+    generate_project_arch(
+        "AAI ASSET SYSTEM", ["REACT 19 + VITE UI", "EXPRESS REST API", "JWT + RBAC + AUDIT LOG", "MONGOOSE / MONGODB", "QR + PDF + EXCEL ENGINE", "5 DEPTS / ~500 USERS"],
+        [t["cyan"], t["blue"], t["violet"], t["green"], t["amber"], t["cyan"]],
+        theme, suffix, "aai-arch"
     )
     generate_project_arch(
         "GUARDIAN-AI", ["MOBILE APP (FLUTTER)", "MOTION & AUDIO SENSORS", "DISTRESS ML MODEL", "FASTAPI BACKEND", "REAL-TIME GPS TRACKING", "TWILIO SOS BROADCAST"],
@@ -636,17 +644,17 @@ def generate_tech_constellation(theme, suffix):
     domains = {
         "AI / ML": {
             "color": t["violet"],
-            "techs": ["PyTorch", "TensorFlow", "LangChain", "LangGraph", "LLMs", "RAG", "MCP"],
+            "techs": ["PyTorch", "TensorFlow", "XGBoost", "LangGraph", "Hugging Face", "RAG", "MCP"],
             "angle_start": 200, "angle_span": 80,
         },
         "BACKEND": {
             "color": t["cyan"],
-            "techs": ["Python", "FastAPI", "Node.js", "PostgreSQL", "MongoDB", "Redis"],
+            "techs": ["Python", "FastAPI", "Node.js", "Go", "Rust", "PostgreSQL", "MongoDB", "Redis"],
             "angle_start": 280, "angle_span": 70,
         },
         "FRONTEND": {
             "color": t["blue"],
-            "techs": ["React", "TypeScript", "JavaScript", "HTML5", "CSS3"],
+            "techs": ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind"],
             "angle_start": 350, "angle_span": 60,
         },
         "INFRA / CLOUD": {
@@ -972,13 +980,10 @@ def generate_leetcode_streak(lc, theme, suffix):
 def generate_language_dna(theme, suffix):
     t = DARK if theme == "dark" else LIGHT
 
-    langs = [
-        ("TypeScript", 38, t["blue"]),
-        ("Python", 32, t["violet"]),
-        ("JavaScript", 12, t["amber"]),
-        ("Dart", 10, t["cyan"]),
-        ("C++ / Java", 8, t["green"]),
-    ]
+    gh = load_json("github.json") or {}
+    palette = [t["blue"], t["amber"], t["violet"], t["cyan"], t["green"]]
+    ranked = sorted((gh.get("languages") or {}).items(), key=lambda kv: -kv[1])[:5]
+    langs = [(n, round(v), palette[i % 5]) for i, (n, v) in enumerate(ranked)] or [("TypeScript", 45, t["blue"])]
 
     bars = ""
     y = 42
@@ -996,7 +1001,7 @@ def generate_language_dna(theme, suffix):
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 185" width="780" height="185">
   <rect width="780" height="185" rx="8" fill="{t['bg']}" stroke="{t['border']}" stroke-width="0.5"/>
-  <text x="390" y="22" text-anchor="middle" fill="{t['muted']}" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">LANGUAGE DNA // CODE DISTRIBUTION</text>
+  <text x="390" y="22" text-anchor="middle" fill="{t['muted']}" font-family="'Courier New',monospace" font-size="8" letter-spacing="4">LANGUAGE DNA // REPOSITORY LANGUAGE MIX</text>
   {bars}
 </svg>'''
     write_svg(f"github/language-dna-{suffix}.svg", svg)
@@ -1113,7 +1118,7 @@ def generate_footer(profile, theme, suffix):
   <text x="450" y="45" text-anchor="middle" fill="{t['muted']}" font-family="'Courier New',monospace" font-size="9" letter-spacing="8">DESIGN  ·  BUILD  ·  MEASURE  ·  SHIP</text>
 
   <text x="450" y="75" text-anchor="middle" fill="{t['text']}" font-family="system-ui,sans-serif" font-size="16" font-weight="800" letter-spacing="4">ROSHAN R</text>
-  <text x="450" y="95" text-anchor="middle" fill="{t['muted']}" font-family="'Courier New',monospace" font-size="9" letter-spacing="3">Software Engineer • AI Engineering</text>
+  <text x="450" y="95" text-anchor="middle" fill="{t['muted']}" font-family="'Courier New',monospace" font-size="9" letter-spacing="3">Software Engineer • Backend • Applied AI</text>
 
   <polyline points="0,10 0,0 10,0" fill="none" stroke="{t['violet']}" stroke-width="1" opacity="0.4"/>
   <polyline points="890,0 900,0 900,10" fill="none" stroke="{t['violet']}" stroke-width="1" opacity="0.4"/>
@@ -1137,7 +1142,7 @@ def main():
         print(f"\n[+] Generating {theme.upper()} theme assets...")
         generate_hero(profile, theme, suffix)
         generate_engineering_os(profile, theme, suffix)
-        generate_terminal(theme, suffix)
+        generate_terminal(theme, suffix, leetcode)
         generate_engineering_pipeline(theme, suffix)
         generate_ai_lab(theme, suffix)
         generate_rag_pipeline(theme, suffix)
@@ -1157,6 +1162,9 @@ def main():
         generate_skyline(theme, suffix)
         generate_activity_pulse(theme, suffix)
         generate_footer(profile, theme, suffix)
+        svg_extras.generate_skills_marquee(profile.get('skill_groups', []), DARK if theme == 'dark' else LIGHT, suffix, write_svg)
+    svg_extras.generate_mascot_duo(write_svg)
+    svg_extras.generate_divider(write_svg)
 
     print("\n[+] All visual assets rendered successfully!")
 
