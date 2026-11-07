@@ -21,7 +21,7 @@
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="0.0s" fill="freeze" repeatCount="indefinite"/>
       <text x="20" y="52" fill="#10B981" font-family="'Courier New',monospace" font-size="10.5" font-weight="600">$ whoami</text>
-      <text x="20" y="68" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">roshan-r // software-engineer // ai-systems-architect</text>
+      <text x="20" y="68" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">roshan-r // software-engineer // backend + applied-ai</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="0.8s" fill="freeze" repeatCount="indefinite"/>
@@ -31,12 +31,12 @@
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="1.6s" fill="freeze" repeatCount="indefinite"/>
       <text x="20" y="128" fill="#10B981" font-family="'Courier New',monospace" font-size="10.5" font-weight="600">$ git log --oneline -1</text>
-      <text x="20" y="144" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">e8b4c12 feat(agentforge): implement graph-rag &amp; mcp tool orchestration</text>
+      <text x="20" y="144" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">e8b4c12 feat(cortexops): add rust inference metering &amp; rls tenant isolation</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="2.4000000000000004s" fill="freeze" repeatCount="indefinite"/>
       <text x="20" y="166" fill="#10B981" font-family="'Courier New',monospace" font-size="10.5" font-weight="600">$ docker ps --format 'table {{.Names}}	{{.Status}}'</text>
-      <text x="20" y="182" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">agent-orchestrator (Up 42h) | vector-db (Up 42h) | rconnectx-api (Up 42h)</text>
+      <text x="20" y="182" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">agent-orchestrator (Up 42h) | cortexops-policy (Up 42h) | rconnectx-api (Up 42h)</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="3.2s" fill="freeze" repeatCount="indefinite"/>
@@ -46,7 +46,7 @@
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="4.0s" fill="freeze" repeatCount="indefinite"/>
       <text x="20" y="242" fill="#10B981" font-family="'Courier New',monospace" font-size="10.5" font-weight="600">$ leetcode --stats</text>
-      <text x="20" y="258" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">219 Solved (73 Easy, 114 Med, 32 Hard) | Rating: 1773.12 (Top 9.47%)</text>
+      <text x="20" y="258" fill="#94A3B8" font-family="'Courier New',monospace" font-size="9.5">477 Solved (150 Easy, 250 Med, 77 Hard) | Rating: 1972 (Top 3.09%)</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1;1" dur="10s" begin="4.800000000000001s" fill="freeze" repeatCount="indefinite"/>

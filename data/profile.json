@@ -1,7 +1,7 @@
 {
   "name": "Roshan R",
   "username": "Roshanrameshhub",
-  "title": "Software Engineer • AI Engineer",
+  "title": "Software Engineer",
   "tagline": "BUILDING SYSTEMS THAT THINK, SCALE & SHIP",
   "status": {
     "system": "ONLINE",
@@ -9,117 +9,177 @@
     "focus": "AI + SYSTEMS"
   },
   "roles": [
-    "SOFTWARE ENGINEERING",
-    "AI ENGINEERING",
-    "SYSTEM DESIGN",
-    "AGENTIC AI",
-    "RAG SYSTEMS",
-    "REAL-TIME SYSTEMS",
-    "DEVOPS & CLOUD"
+    "FULL-STACK ENGINEER",
+    "BACKEND & DISTRIBUTED SYSTEMS",
+    "AGENTIC AI & RAG",
+    "REAL-TIME VOICE AI",
+    "LEETCODE KNIGHT",
+    "CLOUD & DEVOPS"
   ],
   "identity": {
-    "role": "Software Engineer / AI Engineer",
-    "focus": "AI Systems • Backend • Architecture",
-    "building": "Agentic AI • RAG • Real-Time Systems",
-    "education": "Computer Science Engineering"
+    "role": "Software Engineer",
+    "focus": "Full-Stack • Backend • Applied AI",
+    "building": "Agentic AI • Hybrid RAG • Cloud-Native Platforms",
+    "education": "B.E. CSE, Chennai Institute of Technology (2024-2028)"
   },
-  "bio": "Computer Science Engineering student focused on building AI-powered software systems, distributed workflows, and production-oriented applications. Engineering across AI systems, backend architecture, real-time pipelines, DevOps, and intelligent automation.",
+  "bio": "Computer Science Engineering student who likes to understand a system before building on it. Focused on full-stack and backend engineering, distributed systems and applied AI, with a preference for hard problems and practical solutions.",
   "links": {
     "github": "https://github.com/Roshanrameshhub",
     "linkedin": "https://www.linkedin.com/in/roshan1833",
-    "email": "rosharnithisha123@gmail.com",
+    "email": "roshanrithisha123@gmail.com",
     "leetcode": "https://leetcode.com/u/RoshanR_in/",
     "rconnectx": "https://www.rconnectx.com/",
-    "flyrank": "https://flyrank.ai/",
     "gssoc": "https://gssoc.girlscript.org/"
   },
   "projects": [
     {
       "name": "RConnectX",
-      "domain": "AI-Powered Networking Platform",
-      "problem": "Fragmented startup networking with no intelligent matching or discovery",
-      "approach": "AI-driven matching engine, real-time collaboration, event-driven architecture",
-      "stack": ["Next.js", "TypeScript", "FastAPI", "PostgreSQL", "WebSocket", "OAuth2", "Cloudinary"],
+      "domain": "Multi-Sided Professional Networking Platform",
+      "problem": "Founders, students, developers and employees had no single place for intelligent, contextual discovery",
+      "approach": "AI matching with all-MiniLM-L6-v2 embeddings, real-time WebSocket messaging, Docker on AWS EC2/RDS/S3 behind a load balancer",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "WebSockets",
+        "OAuth2",
+        "Docker",
+        "AWS"
+      ],
       "repo": "https://github.com/Roshanrameshhub/nexus",
-      "live": "https://www.rconnectx.com/",
-      "architecture": ["Clients", "Frontend", "API", "AI Services", "Data", "Real-Time"]
+      "live": "https://rconnectx.com/"
+    },
+    {
+      "name": "AgentForge",
+      "domain": "Multi-Agent AI Orchestration Framework",
+      "problem": "Multi-agent coordination lacks deterministic routing, persistent state and tool safety",
+      "approach": "Supervisor-driven 12-stage LangGraph pipeline, hybrid RAG (ChromaDB + BM25 + RRF + LLM rerank), NetworkX graph reasoning, MCP tools, human-in-the-loop approvals",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "ChromaDB",
+        "NetworkX",
+        "MCP",
+        "PostgreSQL",
+        "Prometheus"
+      ],
+      "repo": "https://github.com/Roshanrameshhub/AgentForge",
+      "live": null
+    },
+    {
+      "name": "CortexOps",
+      "domain": "Cloud-Native AI Model Lifecycle & Inference Platform",
+      "problem": "Publishing, discovering and serving AI models safely across tenants needs validation, lineage and metering",
+      "approach": "REST/gRPC/GraphQL microservices, 10-phase publish validation, Elasticsearch semantic discovery, DAG lineage, Rust/Axum inference with Redis rate limiting, Postgres RLS tenant isolation via Go gRPC policy engine",
+      "stack": [
+        "Go",
+        "Rust",
+        "FastAPI",
+        "GraphQL",
+        "gRPC",
+        "PostgreSQL",
+        "Elasticsearch",
+        "Redis",
+        "TensorFlow"
+      ],
+      "repo": "https://github.com/roshanrameshhub/CortexOps",
+      "live": null
+    },
+    {
+      "name": "AAI Asset Management System",
+      "domain": "MERN-Stack Enterprise Asset Platform",
+      "problem": "Manual registers and spreadsheets for 5,000-7,000 assets across 5 departments",
+      "approach": "Asset lifecycle APIs, JWT + RBAC + audit logging, QR labels, PDF handover/audit documents, validated bulk Excel import",
+      "stack": [
+        "React 19",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "JWT"
+      ],
+      "repo": "https://github.com/Roshanrameshhub/Airport-Authority-of-India",
+      "live": null
     },
     {
       "name": "SmartFert-AI",
       "domain": "AI + IoT Precision Agriculture",
-      "problem": "Inefficient fertilizer usage due to lack of real-time soil intelligence",
-      "approach": "ESP32 soil telemetry, ML-based NPK prediction, automated dispensing",
-      "stack": ["Python", "FastAPI", "React", "TypeScript", "ESP32", "ML", "PostgreSQL"],
+      "problem": "Over-fertilization from lack of real-time soil intelligence",
+      "approach": "ESP32 soil telemetry, ML-based NPK prediction, automated valve dispensing",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "ESP32",
+        "Scikit-learn"
+      ],
       "repo": "https://github.com/Roshanrameshhub/SmartFert-ai",
-      "live": null,
-      "architecture": ["ESP32", "Sensors", "API", "ML Engine", "Recommendation", "Automation"]
-    },
-    {
-      "name": "AgentForge",
-      "domain": "AI Agent Framework",
-      "problem": "Complex multi-agent orchestration with no unified workflow engine",
-      "approach": "Multi-agent orchestration, hybrid RAG, knowledge graphs, MCP tools, persistent memory",
-      "stack": ["Python", "LangGraph", "FastAPI", "ChromaDB", "PostgreSQL", "Redis", "Streamlit"],
-      "repo": "https://github.com/Roshanrameshhub/AgentForge",
-      "live": null,
-      "architecture": ["User", "Orchestrator", "Agents", "RAG + Knowledge Graph", "Tools", "Memory"]
+      "live": null
     },
     {
       "name": "Guardian-AI",
       "domain": "AI-Powered Personal Safety",
-      "problem": "Reactive safety systems that fail when users cannot actively call for help",
-      "approach": "Voice distress detection, motion sensing, live GPS, intelligent SOS",
-      "stack": ["Flutter", "Dart", "FastAPI", "Firebase", "Gemini AI", "PostgreSQL", "Redis", "Twilio"],
+      "problem": "Reactive SOS systems fail when users cannot actively call for help",
+      "approach": "Voice distress detection, fall detection, live GPS, multi-channel SOS dispatch",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "FastAPI",
+        "Gemini AI",
+        "PostgreSQL",
+        "Redis",
+        "Twilio"
+      ],
       "repo": "https://github.com/Roshanrameshhub/guardian-ai",
-      "live": null,
-      "architecture": ["Mobile App", "Sensors", "AI Engine", "Backend", "Alerts", "Monitoring"]
-    },
-    {
-      "name": "CATI AI",
-      "domain": "Real-Time Voice AI Systems",
-      "problem": "Managing complex conversational state in real-time voice interactions",
-      "approach": "Event-driven state machines, barge-in handling, multi-turn dialogue management",
-      "stack": ["React", "Zustand", "LiveKit", "WebRTC", "Voice AI"],
-      "repo": null,
-      "live": null,
-      "architecture": ["Voice Input", "VAD", "STT", "State Engine", "LLM", "TTS", "Audio Output"]
+      "live": null
     }
   ],
   "experience": [
     {
-      "company": "RConnectX",
-      "role": "Technical / Engineering",
-      "domain": "AI-Powered Startup Networking",
-      "focus": "Intelligent matching, real-time collaboration, product engineering",
-      "systems": ["Next.js", "FastAPI", "PostgreSQL", "WebSocket", "AI"]
+      "company": "Airports Authority of India (AAI)",
+      "role": "Software Development Intern",
+      "period": "Sep 2026 - Oct 2026",
+      "domain": "Regional HQ, Chennai International Airport",
+      "focus": "MERN asset management system in daily use across 5 departments (~500 users)",
+      "systems": [
+        "React 19",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "RBAC"
+      ]
     },
     {
       "company": "CATI AI",
-      "role": "AI / Voice AI Intern",
-      "domain": "Real-Time Conversational AI",
-      "focus": "State management, multi-turn dialogue, barge-in, WebRTC events",
-      "systems": ["LiveKit", "WebRTC", "React", "Zustand", "Voice Pipelines"]
+      "role": "Autonomous Voice AI Intern",
+      "period": "Aug 2026 - Oct 2026",
+      "domain": "Real-Time Conversational AI (Remote)",
+      "focus": "STT-to-TTS voice agents, barge-in, Shopify/WhatsApp workflows, Playwright QA platform",
+      "systems": [
+        "LiveKit",
+        "WebRTC",
+        "React",
+        "Zustand",
+        "Playwright"
+      ]
     },
     {
-      "company": "Rakshan Earth & Space Management",
-      "role": "Technical Intern",
-      "domain": "Engineering Operations",
-      "focus": "Technical workflows and real-world engineering environments",
-      "systems": []
-    },
-    {
-      "company": "FlyRank",
-      "role": "AI / Engineering",
-      "domain": "AI-Powered Growth Systems",
-      "focus": "Agentic AI, AI search, intelligent automation",
-      "systems": ["AI Agents", "Search", "Automation"]
-    },
-    {
-      "company": "AgentForge",
-      "role": "Personal AI Engineering Project",
-      "domain": "AI Agent Framework",
-      "focus": "Multi-agent orchestration, RAG, tool calling, memory systems",
-      "systems": ["LangGraph", "FastAPI", "ChromaDB", "MCP"]
+      "company": "Rakshan Earth and Space Technologies",
+      "role": "Machine Learning Intern",
+      "period": "Jul 2026 - Aug 2026",
+      "domain": "Deep-sea environmental analytics",
+      "focus": "XGBoost, Random Forest and LSTM models, Python feature-engineering pipelines",
+      "systems": [
+        "XGBoost",
+        "LSTM",
+        "Random Forest",
+        "Python"
+      ]
     }
   ],
   "open_source": [
@@ -131,13 +191,11 @@
   ],
   "now_building": [
     "Agentic AI",
-    "RAG",
-    "Production AI Systems",
+    "Hybrid RAG",
+    "Cloud-Native Platforms",
     "System Design",
     "Real-Time Voice AI",
-    "Cloud / DevOps",
-    "DSA",
-    "AI + IoT"
+    "DSA"
   ],
   "engineering_domains": {
     "code": "ACTIVE",
@@ -152,5 +210,105 @@
     "BUILD BEFORE BOAST",
     "MEASURE BEFORE OPTIMIZE",
     "SHIP BEFORE PERFECT"
+  ],
+  "subtitle": "SOFTWARE ENGINEER // BACKEND • AI • DSA",
+  "education": {
+    "school": "Chennai Institute of Technology",
+    "degree": "B.E. Computer Science and Engineering",
+    "cgpa": "8.17",
+    "period": "Sep 2024 - May 2028"
+  },
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Cisco CCNA",
+    "MongoDB University",
+    "WorldQuant University - Data Science"
+  ],
+  "skill_groups": [
+    {
+      "label": "LANGUAGES & CORE",
+      "color": "cyan",
+      "items": [
+        "C++",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go",
+        "Rust",
+        "DSA",
+        "Competitive Programming",
+        "HTML",
+        "CSS",
+        "Linux",
+        "Git"
+      ]
+    },
+    {
+      "label": "FRONTEND & BACKEND",
+      "color": "violet",
+      "items": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Zustand",
+        "Node.js",
+        "Express.js",
+        "FastAPI",
+        "REST",
+        "WebSockets",
+        "GraphQL",
+        "gRPC",
+        "JWT",
+        "OAuth2",
+        "RBAC",
+        "MERN",
+        "Mongoose",
+        "SQLAlchemy",
+        "Alembic"
+      ]
+    },
+    {
+      "label": "DATA & AI/ML",
+      "color": "green",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "ChromaDB",
+        "Firestore",
+        "LangGraph",
+        "Multi-Agent Systems",
+        "Hybrid RAG",
+        "BM25",
+        "RRF",
+        "MCP",
+        "NetworkX",
+        "Hugging Face",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "XGBoost"
+      ]
+    },
+    {
+      "label": "REAL-TIME & CLOUD",
+      "color": "amber",
+      "items": [
+        "LiveKit",
+        "WebRTC",
+        "STT/TTS",
+        "Playwright",
+        "Regression Testing",
+        "AWS EC2",
+        "AWS S3",
+        "AWS RDS",
+        "Docker",
+        "GitHub Actions",
+        "CI/CD",
+        "Prometheus",
+        "Grafana"
+      ]
+    }
   ]
 }

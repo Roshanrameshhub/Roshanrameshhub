@@ -19,8 +19,8 @@
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.4s" repeatCount="indefinite"/>
     </g><line x1="400" y1="200" x2="268.98620415582184" y2="51.543321812388626" stroke="#8B5CF6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="232.73620415582184" y="41.543321812388626" width="72.5" height="20" rx="10" fill="#111827" stroke="#8B5CF6" stroke-width="0.8" opacity="0.9"/>
-      <text x="268.98620415582184" y="55.043321812388626" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">LangChain</text>
+      <rect x="239.23620415582184" y="41.543321812388626" width="59.5" height="20" rx="10" fill="#111827" stroke="#8B5CF6" stroke-width="0.8" opacity="0.9"/>
+      <text x="268.98620415582184" y="55.043321812388626" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">XGBoost</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.0s" repeatCount="indefinite"/>
     </g><line x1="400" y1="200" x2="353.99999999999994" y2="120.32566285183167" stroke="#8B5CF6" stroke-width="0.4" opacity="0.18"/>
     <g>
@@ -29,8 +29,8 @@
       <animate attributeName="opacity" values="0.75;1;0.75" dur="4.4s" repeatCount="indefinite"/>
     </g><line x1="400" y1="200" x2="353.8194357135058" y2="62.55053480576589" stroke="#8B5CF6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="332.8194357135058" y="52.55053480576589" width="42" height="20" rx="10" fill="#111827" stroke="#8B5CF6" stroke-width="0.8" opacity="0.9"/>
-      <text x="353.8194357135058" y="66.05053480576589" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">LLMs</text>
+      <rect x="307.8194357135058" y="52.55053480576589" width="92.0" height="20" rx="10" fill="#111827" stroke="#8B5CF6" stroke-width="0.8" opacity="0.9"/>
+      <text x="353.8194357135058" y="66.05053480576589" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Hugging Face</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/>
     </g><line x1="400" y1="200" x2="375.62863388909295" y2="5.521115506366272" stroke="#8B5CF6" stroke-width="0.4" opacity="0.18"/>
     <g>
@@ -42,111 +42,121 @@
       <rect x="386.09935889071033" y="95.26563926778789" width="42" height="20" rx="10" fill="#111827" stroke="#8B5CF6" stroke-width="0.8" opacity="0.9"/>
       <text x="407.09935889071033" y="108.76563926778789" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">MCP</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.1s" repeatCount="indefinite"/>
-    </g><text x="279.9999999999999" y="-7.846096908265224" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">AI / ML</text><line x1="400" y1="200" x2="424.55559970007147" y2="113.4146517973748" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><text x="279.9999999999999" y="-7.846096908265224" text-anchor="middle" fill="#8B5CF6" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">AI / ML</text><line x1="400" y1="200" x2="422.34405154363446" y2="112.81775776790661" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="398.05559970007147" y="103.4146517973748" width="53.0" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="424.55559970007147" y="116.9146517973748" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Python</text>
+      <rect x="395.84405154363446" y="102.81775776790661" width="53.0" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="422.34405154363446" y="116.31775776790661" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Python</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.5s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="466.03005169260985" y2="73.15745085551431" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="456.1615950730941" y2="68.4900184820718" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="436.28005169260985" y="63.15745085551431" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="466.03005169260985" y="76.65745085551431" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">FastAPI</text>
+      <rect x="426.4115950730941" y="58.490018482071804" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="456.1615950730941" y="71.9900184820718" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">FastAPI</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.9s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="522.5262001526846" y2="49.58946088739569" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="502.44516302617143" y2="35.25477678384371" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="492.7762001526846" y="39.58946088739569" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="522.5262001526846" y="53.08946088739569" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Node.js</text>
+      <rect x="472.69516302617143" y="25.25477678384371" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="502.44516302617143" y="38.75477678384371" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Node.js</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.5s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="467.4521489834875" y2="145.0526834366827" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="456.64617414233953" y2="133.96810653149691" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="427.9521489834875" y="135.0526834366827" width="79.0" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="467.4521489834875" y="148.5526834366827" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">PostgreSQL</text>
+      <rect x="435.64617414233953" y="123.96810653149691" width="42" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="456.64617414233953" y="137.46810653149691" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Go</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="522.4074949785946" y2="136.27869137356535" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="504.7402448121083" y2="110.14744791215101" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="492.6574949785946" y="126.27869137356535" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="522.4074949785946" y="139.77869137356535" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">MongoDB</text>
+      <rect x="483.7402448121083" y="100.14744791215101" width="42" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="504.7402448121083" y="113.64744791215101" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Rust</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="4.5s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="589.5257066213018" y2="146.25052065651" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="567.292829760736" y2="95.97063342187752" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="566.2757066213018" y="136.25052065651" width="46.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="589.5257066213018" y="149.75052065651" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Redis</text>
+      <rect x="527.792829760736" y="85.97063342187752" width="79.0" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="567.292829760736" y="99.47063342187752" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">PostgreSQL</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/>
-    </g><text x="569.7056274847714" y="30.29437251522856" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">BACKEND</text><line x1="400" y1="200" x2="494.7685847746833" y2="193.37313499430806" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="487.36677093848374" y2="162.68984942696542" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="471.5185847746833" y="183.37313499430806" width="46.5" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
-      <text x="494.7685847746833" y="196.87313499430806" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">React</text>
+      <rect x="457.61677093848374" y="152.68984942696542" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="487.36677093848374" y="166.18984942696542" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">MongoDB</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="4.2s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="545.5694061050108" y2="220.45844584112962" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="542.3976623124192" y2="163.5047158120637" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="506.0694061050108" y="210.45844584112962" width="79.0" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
-      <text x="545.5694061050108" y="223.95844584112962" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">TypeScript</text>
+      <rect x="519.1476623124192" y="153.5047158120637" width="46.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="542.3976623124192" y="167.0047158120637" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Redis</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.7s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="580.4209831908944" y2="265.66786751852845" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    </g><text x="569.7056274847714" y="30.29437251522856" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">BACKEND</text><line x1="400" y1="200" x2="487.7856364228645" y2="193.86143031051694" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="540.9209831908944" y="255.66786751852845" width="79.0" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
-      <text x="580.4209831908944" y="269.16786751852845" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">JavaScript</text>
+      <rect x="464.5356364228645" y="183.86143031051694" width="46.5" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
+      <text x="487.7856364228645" y="197.36143031051694" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">React</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.6s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="473.7801843656091" y2="246.1029759882888" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="537.6472615550783" y2="219.3450610334491" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="450.5301843656091" y="236.1029759882888" width="46.5" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
-      <text x="473.7801843656091" y="249.6029759882888" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">HTML5</text>
+      <rect x="507.89726155507833" y="209.3450610334491" width="59.5" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
+      <text x="537.6472615550783" y="222.8450610334491" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Next.js</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.2s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="502.1462516480885" y2="298.64148860517764" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="582.3003684324663" y2="266.3519078051798" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="481.1462516480885" y="288.64148860517764" width="42" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
-      <text x="502.1462516480885" y="302.14148860517764" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">CSS3</text>
+      <rect x="542.8003684324663" y="256.3519078051798" width="79.0" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
+      <text x="582.3003684324663" y="269.8519078051798" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">TypeScript</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.7s" repeatCount="indefinite"/>
-    </g><text x="625.526228988618" y="282.0848343981605" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">FRONTEND</text><line x1="400" y1="200" x2="453.68251873319167" y2="279.587606965284" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="481.4126172310169" y2="250.87224936638765" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="427.18251873319167" y="269.587606965284" width="53.0" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
-      <text x="453.68251873319167" y="283.087606965284" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Docker</text>
+      <rect x="441.9126172310169" y="240.87224936638765" width="79.0" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
+      <text x="481.4126172310169" y="254.37224936638765" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">JavaScript</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.8s" repeatCount="indefinite"/>
+    </g><line x1="400" y1="200" x2="499.9882322470725" y2="296.5575134938006" stroke="#3B82F6" stroke-width="0.4" opacity="0.18"/>
+    <g>
+      <rect x="466.9882322470725" y="286.5575134938006" width="66.0" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="0.8" opacity="0.9"/>
+      <text x="499.9882322470725" y="300.0575134938006" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Tailwind</text>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="4.2s" repeatCount="indefinite"/>
+    </g><text x="625.526228988618" y="282.0848343981605" text-anchor="middle" fill="#3B82F6" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">FRONTEND</text><line x1="400" y1="200" x2="449.7681684088965" y2="273.78434395739873" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
+    <g>
+      <rect x="423.2681684088965" y="263.78434395739873" width="53.0" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
+      <text x="449.7681684088965" y="277.28434395739873" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Docker</text>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="5.4s" repeatCount="indefinite"/>
     </g><line x1="400" y1="200" x2="452.07031648481177" y2="328.87855578478343" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
     <g>
       <rect x="431.07031648481177" y="318.87855578478343" width="42" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
       <text x="452.07031648481177" y="332.37855578478343" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">AWS</text>
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="4.2s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="433.5140982897176" y2="390.0678963313561" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
-    <g>
-      <rect x="381.0140982897176" y="380.0678963313561" width="105.0" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
-      <text x="433.5140982897176" y="393.5678963313561" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">GitHub Actions</text>
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="5.4s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="396.9637437868824" y2="286.94700195066133" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
-    <g>
-      <rect x="373.7137437868824" y="276.94700195066133" width="46.5" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
-      <text x="396.9637437868824" y="290.44700195066133" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Linux</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.1s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="367.0986221984452" y2="331.96021877353553" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="432.6458574013829" y2="385.1438575662951" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="343.8486221984452" y="321.96021877353553" width="46.5" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
-      <text x="367.0986221984452" y="335.46021877353553" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">CI/CD</text>
+      <rect x="380.1458574013829" y="375.1438575662951" width="105.0" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
+      <text x="432.6458574013829" y="388.6438575662951" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">GitHub Actions</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.6s" repeatCount="indefinite"/>
-    </g><text x="441.6755626400633" y="436.35386072292994" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">INFRA / CLOUD</text><line x1="400" y1="200" x2="362.30086886316116" y2="275.0651417871666" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="397.0684422769899" y2="283.94882946960405" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="335.80086886316116" y="265.0651417871666" width="53.0" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
-      <text x="362.30086886316116" y="278.5651417871666" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">WebRTC</text>
+      <rect x="373.8184422769899" y="273.94882946960405" width="46.5" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
+      <text x="397.0684422769899" y="287.44882946960405" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Linux</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.7s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="308.0813718148249" y2="309.54435536601386" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="365.4051689292475" y2="338.75228885746753" stroke="#F59E0B" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="278.3313718148249" y="299.54435536601386" width="59.5" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
-      <text x="308.0813718148249" y="313.04435536601386" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">LiveKit</text>
+      <rect x="342.1551689292475" y="328.75228885746753" width="46.5" height="20" rx="10" fill="#111827" stroke="#F59E0B" stroke-width="0.8" opacity="0.9"/>
+      <text x="365.4051689292475" y="342.25228885746753" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">CI/CD</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.4s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="246.79447018378661" y2="314.0572910152322" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
+    </g><text x="441.6755626400633" y="436.35386072292994" text-anchor="middle" fill="#F59E0B" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">INFRA / CLOUD</text><line x1="400" y1="200" x2="360.9544713225598" y2="277.7460397081369" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="210.54447018378661" y="304.0572910152322" width="72.5" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
-      <text x="246.79447018378661" y="317.5572910152322" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">WebSocket</text>
+      <rect x="334.4544713225598" y="267.7460397081369" width="53.0" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
+      <text x="360.9544713225598" y="281.2460397081369" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">WebRTC</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="4.3s" repeatCount="indefinite"/>
-    </g><text x="245.73097367523056" y="383.8506663485547" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">REAL-TIME</text><line x1="400" y1="200" x2="317.0148393948057" y2="218.39736718473873" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="311.9380974729441" y2="304.9480887073" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="293.7648393948057" y="208.39736718473873" width="46.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="317.0148393948057" y="221.89736718473873" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">ESP32</text>
+      <rect x="282.1880974729441" y="294.9480887073" width="59.5" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
+      <text x="311.9380974729441" y="308.4480887073" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">LiveKit</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5.9s" repeatCount="indefinite"/>
-    </g><line x1="400" y1="200" x2="264.1294418648673" y2="194.06776331831432" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    </g><line x1="400" y1="200" x2="249.20083976205177" y2="312.2658152401238" stroke="#10B981" stroke-width="0.4" opacity="0.18"/>
     <g>
-      <rect x="234.37944186486732" y="184.06776331831432" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
-      <text x="264.1294418648673" y="197.56776331831432" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Sensors</text>
+      <rect x="212.95083976205177" y="302.2658152401238" width="72.5" height="20" rx="10" fill="#111827" stroke="#10B981" stroke-width="0.8" opacity="0.9"/>
+      <text x="249.20083976205177" y="315.7658152401238" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">WebSocket</text>
       <animate attributeName="opacity" values="0.75;1;0.75" dur="3.4s" repeatCount="indefinite"/>
+    </g><text x="245.73097367523056" y="383.8506663485547" text-anchor="middle" fill="#10B981" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">REAL-TIME</text><line x1="400" y1="200" x2="309.2044713378462" y2="220.12888409624355" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    <g>
+      <rect x="285.9544713378462" y="210.12888409624355" width="46.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="309.2044713378462" y="223.62888409624355" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">ESP32</text>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="3.6s" repeatCount="indefinite"/>
+    </g><line x1="400" y1="200" x2="261.1322972001218" y2="193.93690515621833" stroke="#00E5FF" stroke-width="0.4" opacity="0.18"/>
+    <g>
+      <rect x="231.3822972001218" y="183.93690515621833" width="59.5" height="20" rx="10" fill="#111827" stroke="#00E5FF" stroke-width="0.8" opacity="0.9"/>
+      <text x="261.1322972001218" y="197.43690515621833" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7.5" font-weight="600">Sensors</text>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="4.0s" repeatCount="indefinite"/>
     </g><text x="160.91327245798107" y="220.91737825943795" text-anchor="middle" fill="#00E5FF" font-family="'Courier New',monospace" font-size="7" font-weight="700" letter-spacing="2" opacity="0.6">HARDWARE / IoT</text>
   <circle r="3" fill="#00E5FF" opacity="0.7">
     <animateMotion dur="18s" repeatCount="indefinite" path="M555,200 A155,155,0,1,1,554.9,200"/>

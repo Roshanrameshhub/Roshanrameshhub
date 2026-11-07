@@ -17,7 +17,7 @@
   <text x="450" y="45" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="9" letter-spacing="8">DESIGN  ·  BUILD  ·  MEASURE  ·  SHIP</text>
 
   <text x="450" y="75" text-anchor="middle" fill="#0F172A" font-family="system-ui,sans-serif" font-size="16" font-weight="800" letter-spacing="4">ROSHAN R</text>
-  <text x="450" y="95" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="9" letter-spacing="3">Software Engineer • AI Engineering</text>
+  <text x="450" y="95" text-anchor="middle" fill="#475569" font-family="'Courier New',monospace" font-size="9" letter-spacing="3">Software Engineer • Backend • Applied AI</text>
 
   <polyline points="0,10 0,0 10,0" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
   <polyline points="890,0 900,0 900,10" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
