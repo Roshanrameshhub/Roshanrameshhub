@@ -1,28 +1,28 @@
 {
   "username": "RoshanR_in",
-  "fetched_at": "2026-11-01T04:31:35.628288+00:00",
+  "fetched_at": "2026-11-08T04:35:33.026782+00:00",
   "profile": {
     "ranking": 759317,
     "reputation": 1,
     "avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
   },
   "stats": {
-    "totalSolved": 477,
-    "totalQuestions": 4100,
-    "easySolved": 150,
+    "totalSolved": 494,
+    "totalQuestions": 4109,
+    "easySolved": 153,
     "totalEasy": 975,
-    "mediumSolved": 250,
-    "totalMedium": 2138,
-    "hardSolved": 77,
-    "totalHard": 987,
-    "contributionPoint": 1436
+    "mediumSolved": 260,
+    "totalMedium": 2145,
+    "hardSolved": 81,
+    "totalHard": 989,
+    "contributionPoint": 1442
   },
   "contest": {
-    "rating": 1972.0266206656152,
-    "globalRanking": 26569,
-    "totalParticipants": 890724,
-    "topPercentage": 3.09,
-    "attended": 15
+    "rating": 1989.603133263405,
+    "globalRanking": 24187,
+    "totalParticipants": 891547,
+    "topPercentage": 2.81,
+    "attended": 16
   },
   "badges": {
     "count": 6,
@@ -63,7 +63,7 @@
     "fundamental": [
       {
         "name": "Array",
-        "count": 244
+        "count": 253
       },
       {
         "name": "Matrix",
@@ -71,7 +71,7 @@
       },
       {
         "name": "String",
-        "count": 101
+        "count": 102
       },
       {
         "name": "Simulation",
@@ -83,7 +83,7 @@
       },
       {
         "name": "Sorting",
-        "count": 47
+        "count": 50
       },
       {
         "name": "Stack",
@@ -95,25 +95,25 @@
       },
       {
         "name": "Linked List",
-        "count": 22
+        "count": 25
       },
       {
         "name": "Two Pointers",
-        "count": 36
+        "count": 37
       }
     ],
     "intermediate": [
       {
         "name": "Tree",
-        "count": 29
+        "count": 36
       },
       {
         "name": "Binary Tree",
-        "count": 27
+        "count": 34
       },
       {
         "name": "Hash Table",
-        "count": 83
+        "count": 90
       },
       {
         "name": "Heap",
@@ -133,15 +133,15 @@
       },
       {
         "name": "Binary Search",
-        "count": 52
+        "count": 53
       },
       {
         "name": "Depth-First Search",
-        "count": 34
+        "count": 36
       },
       {
         "name": "Breadth-First Search",
-        "count": 28
+        "count": 30
       },
       {
         "name": "Recursion",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Sliding Window",
-        "count": 23
+        "count": 25
       },
       {
         "name": "Bit Manipulation",
@@ -157,11 +157,11 @@
       },
       {
         "name": "Math",
-        "count": 108
+        "count": 112
       },
       {
         "name": "Design",
-        "count": 9
+        "count": 13
       },
       {
         "name": "Brainteaser",
@@ -195,11 +195,11 @@
       },
       {
         "name": "Dynamic Programming",
-        "count": 66
+        "count": 67
       },
       {
         "name": "Divide and Conquer",
-        "count": 14
+        "count": 16
       },
       {
         "name": "Trie",
@@ -354,7 +354,13 @@
     "1793232000": 5,
     "1793318400": 2,
     "1793404800": 1,
-    "1793491200": 5
+    "1793491200": 6,
+    "1793577600": 6,
+    "1793664000": 8,
+    "1793750400": 1,
+    "1793836800": 3,
+    "1793923200": 7,
+    "1794009600": 2
   },
   "languages": [
     "C++"
